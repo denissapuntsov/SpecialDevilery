@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "779753582",
+    "Type": "User",
+    "GUID": "{BAA13B5E-79AA-48F2-8F2D-8FC4D0D11F56}",
+    "Language": "SFX",
+    "Hash": "{6EDB098F-07C2-654A-9646-20363111AEB2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
+    "ShortName": "SB_Music",
+    "Path": "SB_Music.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "1024083227",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\MUSIC_Level01_Main\\Silence",
+       "GUID": "{629196B2-5A24-49C0-B3CA-45BE772A9558}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2416343383",
+      "Name": "Play_MUSIC_Level01_Main",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUSIC_Level01_Main",
+      "GUID": "{4D3F8C53-5741-4BBA-B53C-75A427F11BDB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1024083227"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2480494477",
+      "Name": "Stop_MUSIC_Level01_Main",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MUSIC_Level01_Main",
+      "GUID": "{DCCB7D2B-CE61-43A8-AA6E-B28ECFD44E2C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{00B8E9FC-FBEF-9EC3-A50D-BA6A8651F28A}"
+ }
+}
