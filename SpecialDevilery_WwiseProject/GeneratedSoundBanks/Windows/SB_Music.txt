@@ -1,7 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2416343383	Play_MUSIC_Level01_Main			\Default Work Unit\Play_MUSIC_Level01_Main	
-	2480494477	Stop_MUSIC_Level01_Main			\Default Work Unit\Stop_MUSIC_Level01_Main	
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	1024083227	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC_Level01_Main\Silence	
-
