@@ -1,0 +1,193 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1006919462",
+    "Type": "User",
+    "GUID": "{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}",
+    "Language": "SFX",
+    "Hash": "{28F6E108-C241-5D15-0A06-4021BB7A6240}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_SFX",
+    "ShortName": "SB_SFX",
+    "Path": "SB_SFX.bnk",
+    "Media": [
+     {
+      "Id": "79296097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_TimpaniBoing_2.wav",
+      "CachePath": "F5/{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem"
+     },
+     {
+      "Id": "188634448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_TimpaniBoing_1.wav",
+      "CachePath": "00/{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem"
+     },
+     {
+      "Id": "366649388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_OrganHit_4.wav",
+      "CachePath": "ED/{EDD1CDBF-CF32-68F2-C5E0-9213CDE632EA}.wem"
+     },
+     {
+      "Id": "406175795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_OrganHit_2.wav",
+      "CachePath": "62/{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem"
+     },
+     {
+      "Id": "524488237",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_OrganHit_1.wav",
+      "CachePath": "B0/{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem"
+     },
+     {
+      "Id": "736450114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_OrganHit.wav",
+      "CachePath": "88/{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem"
+     },
+     {
+      "Id": "918727732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_OrganHit_3.wav",
+      "CachePath": "D3/{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem"
+     },
+     {
+      "Id": "979600500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_TimpaniBoing.wav",
+      "CachePath": "FF/{FF18D2CC-5674-8615-2AF2-617329D9B8CE}.wem"
+     },
+     {
+      "Id": "1032613653",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_TimpaniBoing_3.wav",
+      "CachePath": "CE/{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "386366398",
+      "Name": "Launcher_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Launcher_Play",
+      "GUID": "{C0F9F6F4-3973-40F3-AFF8-AE3058725427}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "79296097"
+       }
+      ]
+     },
+     {
+      "Id": "3008545775",
+      "Name": "LauncherCombo1_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo1_Play",
+      "GUID": "{DA34C2BA-E045-4B11-A928-6110BA789AFD}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "736450114"
+       },
+       {
+        "Id": "979600500"
+       }
+      ]
+     },
+     {
+      "Id": "3789624926",
+      "Name": "LauncherCombo2_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo2_Play",
+      "GUID": "{8C809418-2BB2-44A1-B381-D0FEFC88BBD0}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "188634448"
+       },
+       {
+        "Id": "524488237"
+       }
+      ]
+     },
+     {
+      "Id": "4261859469",
+      "Name": "LauncherCombo3_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo3_Play",
+      "GUID": "{77A1B232-952C-4A06-A9E5-C450E9C4B832}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "79296097"
+       },
+       {
+        "Id": "406175795"
+       }
+      ]
+     },
+     {
+      "Id": "1939636156",
+      "Name": "LauncherCombo4_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo4_Play",
+      "GUID": "{E9787099-CA05-4BBA-AEA2-CBCA862B990C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "918727732"
+       },
+       {
+        "Id": "1032613653"
+       }
+      ]
+     },
+     {
+      "Id": "4046617780",
+      "Name": "LauncherComboBasket_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherComboBasket_Play",
+      "GUID": "{4967EA1B-5C79-417E-95FC-7B391D4F8A0F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "366649388"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DF29884C-2D28-708B-77E5-495FB1FC21C3}"
+ }
+}

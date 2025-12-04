@@ -3,31 +3,133 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_SD_Muzak_v1" ID="{DD39067C-492C-4583-B3D3-6232B3DC3E13}">
+				<Folder Name="Music" ID="{B4FABF9F-CFCE-4F09-A6E5-739C2D1B4ED6}" ShortID="1025167172">
 					<ChildrenList>
-						<Action Name="" ID="{2A61C6CF-4956-4162-B6E0-16ADBBDDBC0B}" ShortID="917849522">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{07272A93-8B19-4387-8AB1-CE11BA797926}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_SD_Muzak_v1" ID="{DD39067C-492C-4583-B3D3-6232B3DC3E13}">
+							<ChildrenList>
+								<Action Name="" ID="{2A61C6CF-4956-4162-B6E0-16ADBBDDBC0B}" ShortID="917849522">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{FAC1ED40-2A7D-413A-BFE2-8BE5C1891CED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SD_Muzak_v1" ID="{ACB69152-EBFA-48E8-992C-179E58C8B8A3}">
+							<ChildrenList>
+								<Action Name="" ID="{4A0FFFEA-0FD6-4366-95E5-D10B19960FBB}" ShortID="116925429">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{FAC1ED40-2A7D-413A-BFE2-8BE5C1891CED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_SD_Muzak_v1" ID="{ACB69152-EBFA-48E8-992C-179E58C8B8A3}">
+				</Folder>
+				<Folder Name="SFX" ID="{DC06B5FF-1EBB-41A8-A1CE-A800977A8597}" ShortID="802005417">
 					<ChildrenList>
-						<Action Name="" ID="{4A0FFFEA-0FD6-4366-95E5-D10B19960FBB}" ShortID="116925429">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{07272A93-8B19-4387-8AB1-CE11BA797926}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="LauncherCombo1_Play" ID="{DA34C2BA-E045-4B11-A928-6110BA789AFD}">
+							<ChildrenList>
+								<Action Name="" ID="{B828473A-B63A-4D5D-9BEC-F80F861AB6C4}" ShortID="870941633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_TimpaniBoing" ID="{80A61336-D3EB-49A6-AE2A-89C420095AED}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C8C04C76-30FD-4324-8476-06C7251963D0}" ShortID="642556566">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_OrganHit" ID="{ED0CAD5C-69A2-4872-BDC1-A37EA9EEAC83}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LauncherCombo2_Play" ID="{8C809418-2BB2-44A1-B381-D0FEFC88BBD0}">
+							<ChildrenList>
+								<Action Name="" ID="{EBEBE0FB-31CC-4DB2-983F-3C18C6671B07}" ShortID="246084949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_TimpaniBoing_1" ID="{7D1FEA52-60A8-4297-83E9-79D8A72816F5}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A32793FB-58E3-4343-87F2-DC26FAED45D5}" ShortID="734956003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_OrganHit_1" ID="{BD7F8E43-5212-4AF9-A049-B0AAA50D3F70}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LauncherCombo3_Play" ID="{77A1B232-952C-4A06-A9E5-C450E9C4B832}">
+							<ChildrenList>
+								<Action Name="" ID="{881CF6E4-7BA4-479F-A3FA-44222C7F1A88}" ShortID="847826992">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_TimpaniBoing_2" ID="{0887B7E7-3E7A-4F9A-96A5-FF69A4713214}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A60C17E7-2EE0-4048-A15B-296281E660FA}" ShortID="1035714995">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_OrganHit_2" ID="{DEB4B096-311A-48C4-A799-E56234239994}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LauncherCombo4_Play" ID="{E9787099-CA05-4BBA-AEA2-CBCA862B990C}">
+							<ChildrenList>
+								<Action Name="" ID="{322C5F9D-E3E1-4C74-9090-AF719513F669}" ShortID="717560805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_OrganHit_3" ID="{78339A5E-1DEA-40B4-A7C6-082041D8DD4F}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F43E236E-8F29-49AF-BE22-5EA84451E0DE}" ShortID="862418557">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_TimpaniBoing_3" ID="{CD69CF22-A11A-4EA1-AFCE-F2B1F7A43E6B}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LauncherComboBasket_Play" ID="{4967EA1B-5C79-417E-95FC-7B391D4F8A0F}">
+							<ChildrenList>
+								<Action Name="" ID="{1A4FDD0C-497A-48C4-88CB-0924E51137ED}" ShortID="320414792">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_OrganHit_4" ID="{E17F6EF3-D769-4AA4-BC5B-4E5D68335586}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Launcher_Play" ID="{C0F9F6F4-3973-40F3-AFF8-AE3058725427}">
+							<ChildrenList>
+								<Action Name="" ID="{1B8933CA-BBF0-4CA1-9C74-9DE573A289D9}" ShortID="541576849">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_SFX_TimpaniBoing_2" ID="{0887B7E7-3E7A-4F9A-96A5-FF69A4713214}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

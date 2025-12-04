@@ -28,7 +28,7 @@
      {
       "Id": "4017574706",
       "Name": "Play_SD_Muzak_v1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SD_Muzak_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_SD_Muzak_v1",
       "GUID": "{DD39067C-492C-4583-B3D3-6232B3DC3E13}",
       "DurationType": "OneShot",
       "DurationMin": "68.96637",
@@ -42,7 +42,7 @@
      {
       "Id": "3761131964",
       "Name": "Stop_SD_Muzak_v1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SD_Muzak_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_SD_Muzak_v1",
       "GUID": "{ACB69152-EBFA-48E8-992C-179E58C8B8A3}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -52,6 +52,6 @@
     ]
    }
   ],
-  "FileHash": "{0F35625A-D70B-359A-AD14-22B0187121DE}"
+  "FileHash": "{1B9D0A73-00DB-21E6-8A4F-D45FE016FC87}"
  }
 }

@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	386366398	Launcher_Play			\Default Work Unit\SFX\Launcher_Play	
+	1939636156	LauncherCombo4_Play			\Default Work Unit\SFX\LauncherCombo4_Play	
+	3008545775	LauncherCombo1_Play			\Default Work Unit\SFX\LauncherCombo1_Play	
+	3789624926	LauncherCombo2_Play			\Default Work Unit\SFX\LauncherCombo2_Play	
+	4046617780	LauncherComboBasket_Play			\Default Work Unit\SFX\LauncherComboBasket_Play	
+	4261859469	LauncherCombo3_Play			\Default Work Unit\SFX\LauncherCombo3_Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	79296097	SD_SFX_TimpaniBoing_2	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\F5\{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_2		264760
+	188634448	SD_SFX_TimpaniBoing_1	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\00\{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_1		264760
+	366649388	SD_SFX_OrganHit_4	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\ED\{EDD1CDBF-CF32-68F2-C5E0-9213CDE632EA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_4		176496
+	406175795	SD_SFX_OrganHit_2	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\62\{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_2		352896
+	524488237	SD_SFX_OrganHit_1	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\B0\{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_1		352896
+	736450114	SD_SFX_OrganHit	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\88\{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit		352896
+	918727732	SD_SFX_OrganHit_3	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\D3\{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_3		352896
+	979600500	SD_SFX_TimpaniBoing	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\FF\{FF18D2CC-5674-8615-2AF2-617329D9B8CE}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing		242708
+	1032613653	SD_SFX_TimpaniBoing_3	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\CE\{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_3		264760
+
