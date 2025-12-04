@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3761131964	Stop_SD_Muzak_v1			\Default Work Unit\Stop_SD_Muzak_v1	
+	4017574706	Play_SD_Muzak_v1			\Default Work Unit\Play_SD_Muzak_v1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	817596933	SD_Muzak_v1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\4C\{4CD36F9E-C31B-EE45-E6BD-A4D1FC96078D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD_Muzak_v1		12165764
+

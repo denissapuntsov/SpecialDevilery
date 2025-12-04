@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "779753582",
+    "Type": "User",
+    "GUID": "{4C655EF8-2C7D-4517-9191-95AE0ABB70C6}",
+    "Language": "SFX",
+    "Hash": "{50CECF1F-10E5-BC00-976E-7494C09E5989}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
+    "ShortName": "SB_Music",
+    "Path": "SB_Music.bnk",
+    "Media": [
+     {
+      "Id": "817596933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_Muzak_v1.wav",
+      "CachePath": "4C/{4CD36F9E-C31B-EE45-E6BD-A4D1FC96078D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4017574706",
+      "Name": "Play_SD_Muzak_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SD_Muzak_v1",
+      "GUID": "{DD39067C-492C-4583-B3D3-6232B3DC3E13}",
+      "DurationType": "OneShot",
+      "DurationMin": "68.96637",
+      "DurationMax": "68.96637",
+      "MediaRefs": [
+       {
+        "Id": "817596933"
+       }
+      ]
+     },
+     {
+      "Id": "3761131964",
+      "Name": "Stop_SD_Muzak_v1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SD_Muzak_v1",
+      "GUID": "{ACB69152-EBFA-48E8-992C-179E58C8B8A3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0F35625A-D70B-359A-AD14-22B0187121DE}"
+ }
+}

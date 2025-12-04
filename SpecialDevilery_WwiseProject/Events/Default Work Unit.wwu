@@ -3,13 +3,28 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Event_Test" ID="{B690EFA1-A816-4C57-A854-B0F60D8D334B}">
+				<Event Name="Play_SD_Muzak_v1" ID="{DD39067C-492C-4583-B3D3-6232B3DC3E13}">
 					<ChildrenList>
-						<Action Name="" ID="{C1F35E6D-3129-4694-829F-AD4A75115A0C}" ShortID="948185535">
+						<Action Name="" ID="{2A61C6CF-4956-4162-B6E0-16ADBBDDBC0B}" ShortID="917849522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{07272A93-8B19-4387-8AB1-CE11BA797926}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SD_Muzak_v1" ID="{ACB69152-EBFA-48E8-992C-179E58C8B8A3}">
+					<ChildrenList>
+						<Action Name="" ID="{4A0FFFEA-0FD6-4366-95E5-D10B19960FBB}" ShortID="116925429">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
-							<ReferenceList/>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SD_Muzak_v1" ID="{7AE161C4-1061-4DE1-A9ED-E6E37C33A8A7}" WorkUnitID="{07272A93-8B19-4387-8AB1-CE11BA797926}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
