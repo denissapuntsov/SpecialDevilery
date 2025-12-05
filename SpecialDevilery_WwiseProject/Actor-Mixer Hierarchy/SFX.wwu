@@ -3,600 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="SFX" ID="{0781C73A-AF99-415D-A799-E195EAFD77CC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="SD_SFX_GruntCharging" ID="{DBC227E7-6326-4A34-9C36-C0E3A5CF8AFC}" ShortID="989132146">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="125016988"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntCharging_1" ID="{AF7FBD02-252D-47DB-A608-6DA2F2191C52}" ShortID="584943315">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging_1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="390729399"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntCharging_2" ID="{4F37CBB8-2791-4171-8635-53DC45749171}" ShortID="588674381">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="806054010"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntCharging_3" ID="{86B47E2D-F05E-4DE8-B0D7-5B81625D549D}" ShortID="735300823">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging_3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="81091407"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntCharging_4" ID="{82F1D468-FD16-4101-8465-246A07907E99}" ShortID="368649354">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging_4.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="669512717"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntCharging_5" ID="{7A15131C-0F94-46B6-BCA3-E07DB1614618}" ShortID="145959763">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntCharging_5.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="845641787"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy" ID="{9179DAC3-0A29-4E89-BBCD-9E4FF9B7DC22}" ShortID="660659630">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="782252568"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_1" ID="{5CF69765-44D7-4F25-B55B-8A10B3B9F2BB}" ShortID="397086202">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_1" ID="{36CE7503-A79C-4215-AFF0-51EFF1890888}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="91503364"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_1" ID="{36CE7503-A79C-4215-AFF0-51EFF1890888}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_2" ID="{F7DA8987-A17F-4AD1-85B1-0B24D45C1629}" ShortID="629133593">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="516670842"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_3" ID="{3A5F1A01-091E-49BB-B10D-3CE44C10CCCA}" ShortID="877352092">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_3" ID="{A5453952-3245-47AA-925D-2546C551F6E1}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="603903224"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_3" ID="{A5453952-3245-47AA-925D-2546C551F6E1}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_4" ID="{02D1BD10-CC63-416B-9A82-059CD21A71A8}" ShortID="696333490">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_4" ID="{35152189-4911-4C4E-94D1-4287AAFB981B}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_4.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="389854753"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_4" ID="{35152189-4911-4C4E-94D1-4287AAFB981B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_5" ID="{AAF9E909-791F-4853-8253-CFF114615A47}" ShortID="568224732">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_5.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="168758328"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_6" ID="{249186F1-EBD8-4C44-B52B-5879FDE4B5E9}" ShortID="498484737">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_6.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="346933841"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_7" ID="{ACD76DE2-5BDB-483B-8CBF-91212D32F108}" ShortID="367077057">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_7" ID="{39A8FB91-5052-401E-960F-4F8FD8F7B16D}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_7.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="351389963"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_7" ID="{39A8FB91-5052-401E-960F-4F8FD8F7B16D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntHappy_8" ID="{D9E0BA5D-A193-4A0C-81FA-8D32B6D4DC12}" ShortID="785718358">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntHappy_8.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1034843698"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad" ID="{5532EB72-53CB-4C64-B752-6059BF980265}" ShortID="935656917">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="70841902"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_1" ID="{4E8B1064-33E9-43FA-AACA-46D7B310A14E}" ShortID="789320540">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="128345456"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_2" ID="{1847E04E-7AD6-4FD1-9AB6-F3E8984D1FC8}" ShortID="71864585">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="738572190"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_3" ID="{81958735-9F2C-48E2-B5F7-CB31FEDC3C7F}" ShortID="417952992">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="687052481"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_4" ID="{9063C07F-FE9A-45B5-886C-9CA482B0CFE0}" ShortID="395179776">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_4.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="833732526"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_5" ID="{268AC561-35F1-4182-B89E-D75881E2C139}" ShortID="166535954">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_5.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="951575320"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_6" ID="{4FABC682-2C1A-482B-A0EF-C26A8EB3BCA0}" ShortID="993109324">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_6.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="339727052"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_7" ID="{98F59040-7C41-4F90-BA26-A1067D57F4C3}" ShortID="150950660">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_7.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="769660942"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_8" ID="{CBDB943D-E1F4-4F55-8AC2-E414A9F4C6EE}" ShortID="643668289">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_8.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="23818761"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_9" ID="{698CEEEF-080D-4244-8549-C8DB258833FD}" ShortID="695524249">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_9.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="667294815"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_10" ID="{643C4171-7C1C-4CA4-B93C-32235C3AF355}" ShortID="106615774">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_10.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="628240651"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_GruntSad_11" ID="{4F7F5590-352A-4437-BC6B-F17F9404CE39}" ShortID="771003062">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_GruntSad_11.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="936680420"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SD_SFX_OrganHit" ID="{ED0CAD5C-69A2-4872-BDC1-A37EA9EEAC83}" ShortID="952425579">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -798,6 +204,589 @@
 						<ActiveSource Name="SD_SFX_TimpaniBoing_3" ID="{6C258D26-4289-4DC5-BC8C-23CC6CE3BB55}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="SD_Grunts_Charge" ID="{BE54628D-C27E-4B25-9F35-0A2FBAE8C263}" ShortID="1048728736">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>260</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SD_SFX_GruntCharging" ID="{DBC227E7-6326-4A34-9C36-C0E3A5CF8AFC}" ShortID="989132146">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="125016988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntCharging_1" ID="{AF7FBD02-252D-47DB-A608-6DA2F2191C52}" ShortID="584943315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="390729399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntCharging_2" ID="{4F37CBB8-2791-4171-8635-53DC45749171}" ShortID="588674381">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="806054010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntCharging_3" ID="{86B47E2D-F05E-4DE8-B0D7-5B81625D549D}" ShortID="735300823">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81091407"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntCharging_4" ID="{82F1D468-FD16-4101-8465-246A07907E99}" ShortID="368649354">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="669512717"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntCharging_5" ID="{7A15131C-0F94-46B6-BCA3-E07DB1614618}" ShortID="145959763">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntCharging_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845641787"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SD_Grunts_Happy" ID="{FA309AC7-647E-4378-94A9-FA9528BBEFA3}" ShortID="942303613">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>22</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>640</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SD_SFX_GruntHappy" ID="{9179DAC3-0A29-4E89-BBCD-9E4FF9B7DC22}" ShortID="660659630">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntHappy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="782252568"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntHappy_2" ID="{F7DA8987-A17F-4AD1-85B1-0B24D45C1629}" ShortID="629133593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntHappy_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="516670842"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntHappy_5" ID="{AAF9E909-791F-4853-8253-CFF114615A47}" ShortID="568224732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntHappy_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="168758328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntHappy_6" ID="{249186F1-EBD8-4C44-B52B-5879FDE4B5E9}" ShortID="498484737">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntHappy_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="346933841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntHappy_8" ID="{D9E0BA5D-A193-4A0C-81FA-8D32B6D4DC12}" ShortID="785718358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntHappy_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1034843698"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SD_Grunts_Sad" ID="{BFCFD8F4-5579-4C87-8947-F873EBA2A5BA}" ShortID="45112290">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>730</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SD_SFX_GruntSad" ID="{5532EB72-53CB-4C64-B752-6059BF980265}" ShortID="935656917">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="70841902"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_1" ID="{4E8B1064-33E9-43FA-AACA-46D7B310A14E}" ShortID="789320540">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="128345456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_2" ID="{1847E04E-7AD6-4FD1-9AB6-F3E8984D1FC8}" ShortID="71864585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="738572190"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_3" ID="{81958735-9F2C-48E2-B5F7-CB31FEDC3C7F}" ShortID="417952992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="687052481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_4" ID="{9063C07F-FE9A-45B5-886C-9CA482B0CFE0}" ShortID="395179776">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="833732526"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_5" ID="{268AC561-35F1-4182-B89E-D75881E2C139}" ShortID="166535954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="951575320"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_6" ID="{4FABC682-2C1A-482B-A0EF-C26A8EB3BCA0}" ShortID="993109324">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="339727052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_7" ID="{98F59040-7C41-4F90-BA26-A1067D57F4C3}" ShortID="150950660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="769660942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_8" ID="{CBDB943D-E1F4-4F55-8AC2-E414A9F4C6EE}" ShortID="643668289">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="23818761"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_9" ID="{698CEEEF-080D-4244-8549-C8DB258833FD}" ShortID="695524249">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="667294815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_10" ID="{643C4171-7C1C-4CA4-B93C-32235C3AF355}" ShortID="106615774">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="628240651"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SD_SFX_GruntSad_11" ID="{4F7F5590-352A-4437-BC6B-F17F9404CE39}" ShortID="771003062">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}">
+									<Language>SFX</Language>
+									<AudioFile>SD_SFX_GruntSad_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="936680420"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

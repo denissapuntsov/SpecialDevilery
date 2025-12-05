@@ -128,6 +128,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SD_Grunts_Happy_Play" ID="{E4FC6D88-0420-46FD-B75C-5939BC5B7827}">
+							<ChildrenList>
+								<Action Name="" ID="{0BE93C3C-8A20-4E1F-8C62-AB24E49A3A95}" ShortID="92485010">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_Grunts_Happy" ID="{FA309AC7-647E-4378-94A9-FA9528BBEFA3}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SD_Grunts_Sad_Play" ID="{4D9781C1-D575-4FC0-A5C0-668728C7F291}">
+							<ChildrenList>
+								<Action Name="" ID="{9FAEC18E-073A-42F4-8D14-50ADD160F6B2}" ShortID="897487648">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SD_Grunts_Sad" ID="{BFCFD8F4-5579-4C87-8947-F873EBA2A5BA}" WorkUnitID="{0781C73A-AF99-415D-A799-E195EAFD77CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

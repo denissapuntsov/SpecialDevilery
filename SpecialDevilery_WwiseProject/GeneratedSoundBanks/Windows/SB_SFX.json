@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}",
     "Language": "SFX",
-    "Hash": "{28F6E108-C241-5D15-0A06-4021BB7A6240}",
+    "Hash": "{71862E63-6DAA-66B1-785F-0D882369D574}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_SFX",
     "ShortName": "SB_SFX",
     "Path": "SB_SFX.bnk",
     "Media": [
+     {
+      "Id": "23818761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_8.wav",
+      "CachePath": "41/{41E12F59-E959-BF91-7E67-ABAC80D3E00D}.wem"
+     },
+     {
+      "Id": "70841902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad.wav",
+      "CachePath": "ED/{EDE88185-C66A-5B67-0184-431356295BF2}.wem"
+     },
      {
       "Id": "79296097",
       "Language": "SFX",
@@ -24,12 +40,44 @@
       "CachePath": "F5/{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem"
      },
      {
+      "Id": "128345456",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_1.wav",
+      "CachePath": "29/{29C9FEFA-8B19-9DCF-38AD-3CB9E10757A3}.wem"
+     },
+     {
+      "Id": "168758328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntHappy_5.wav",
+      "CachePath": "0F/{0FB6A121-27F7-7CBB-2587-6E2446C2EE67}.wem"
+     },
+     {
       "Id": "188634448",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SD_SFX_TimpaniBoing_1.wav",
       "CachePath": "00/{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem"
+     },
+     {
+      "Id": "339727052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_6.wav",
+      "CachePath": "FA/{FAEFD124-27AC-CD1D-1660-08CEE3A25E3B}.wem"
+     },
+     {
+      "Id": "346933841",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntHappy_6.wav",
+      "CachePath": "36/{367104FB-178C-6713-97C4-B13365A6B188}.wem"
      },
      {
       "Id": "366649388",
@@ -48,12 +96,44 @@
       "CachePath": "62/{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem"
      },
      {
+      "Id": "516670842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntHappy_2.wav",
+      "CachePath": "75/{751253AE-EF24-D874-2946-422356AD3C71}.wem"
+     },
+     {
       "Id": "524488237",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SD_SFX_OrganHit_1.wav",
       "CachePath": "B0/{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem"
+     },
+     {
+      "Id": "628240651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_10.wav",
+      "CachePath": "B0/{B0670BD5-3AC7-C016-125B-933C6E12DC2A}.wem"
+     },
+     {
+      "Id": "667294815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_9.wav",
+      "CachePath": "21/{21EF0FFB-6CC2-632D-2B6B-1272087EF24D}.wem"
+     },
+     {
+      "Id": "687052481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_3.wav",
+      "CachePath": "2F/{2F4B5B34-2C31-28E9-5E11-F70C42FD2942}.wem"
      },
      {
       "Id": "736450114",
@@ -64,12 +144,60 @@
       "CachePath": "88/{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem"
      },
      {
+      "Id": "738572190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_2.wav",
+      "CachePath": "82/{82016BF9-9DFF-8769-242B-77F1974291ED}.wem"
+     },
+     {
+      "Id": "769660942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_7.wav",
+      "CachePath": "B7/{B72618BA-6836-D3D4-8A14-01687A4C91E0}.wem"
+     },
+     {
+      "Id": "782252568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntHappy.wav",
+      "CachePath": "1B/{1B48E16E-42E5-134C-89CD-A87545612B50}.wem"
+     },
+     {
+      "Id": "833732526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_4.wav",
+      "CachePath": "08/{08CDE989-12CD-FADB-DE8C-4D74A523689C}.wem"
+     },
+     {
       "Id": "918727732",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SD_SFX_OrganHit_3.wav",
       "CachePath": "D3/{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem"
+     },
+     {
+      "Id": "936680420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_11.wav",
+      "CachePath": "A6/{A6BA53BD-10FF-B263-363C-577EF1A1816C}.wem"
+     },
+     {
+      "Id": "951575320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntSad_5.wav",
+      "CachePath": "C7/{C7391590-0A3B-69FD-B885-9C457D937F06}.wem"
      },
      {
       "Id": "979600500",
@@ -86,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "SD_SFX_TimpaniBoing_3.wav",
       "CachePath": "CE/{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem"
+     },
+     {
+      "Id": "1034843698",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SD_SFX_GruntHappy_8.wav",
+      "CachePath": "C2/{C21A9990-A3E7-294B-28B5-2DE669C70A0E}.wem"
      }
     ],
     "Events": [
@@ -184,10 +320,83 @@
         "Id": "366649388"
        }
       ]
+     },
+     {
+      "Id": "1781246706",
+      "Name": "SD_Grunts_Happy_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SD_Grunts_Happy_Play",
+      "GUID": "{E4FC6D88-0420-46FD-B75C-5939BC5B7827}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6909564",
+      "DurationMax": "1.554652",
+      "MediaRefs": [
+       {
+        "Id": "168758328"
+       },
+       {
+        "Id": "346933841"
+       },
+       {
+        "Id": "516670842"
+       },
+       {
+        "Id": "782252568"
+       },
+       {
+        "Id": "1034843698"
+       }
+      ]
+     },
+     {
+      "Id": "985693488",
+      "Name": "SD_Grunts_Sad_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SD_Grunts_Sad_Play",
+      "GUID": "{4D9781C1-D575-4FC0-A5C0-668728C7F291}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3553159",
+      "DurationMax": "0.7396663",
+      "MediaRefs": [
+       {
+        "Id": "23818761"
+       },
+       {
+        "Id": "70841902"
+       },
+       {
+        "Id": "128345456"
+       },
+       {
+        "Id": "339727052"
+       },
+       {
+        "Id": "628240651"
+       },
+       {
+        "Id": "667294815"
+       },
+       {
+        "Id": "687052481"
+       },
+       {
+        "Id": "738572190"
+       },
+       {
+        "Id": "769660942"
+       },
+       {
+        "Id": "833732526"
+       },
+       {
+        "Id": "936680420"
+       },
+       {
+        "Id": "951575320"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B765376C-21F6-9F75-230C-B7088C30B16A}"
+  "FileHash": "{D6E8F7C2-1EBD-E6F7-78E7-838663FA2C28}"
  }
 }

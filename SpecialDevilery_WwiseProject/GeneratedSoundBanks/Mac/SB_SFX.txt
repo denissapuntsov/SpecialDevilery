@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	386366398	Launcher_Play			\Default Work Unit\SFX\Launcher_Play	
+	985693488	SD_Grunts_Sad_Play			\Default Work Unit\SFX\SD_Grunts_Sad_Play	
+	1781246706	SD_Grunts_Happy_Play			\Default Work Unit\SFX\SD_Grunts_Happy_Play	
 	1939636156	LauncherCombo4_Play			\Default Work Unit\SFX\LauncherCombo4_Play	
 	3008545775	LauncherCombo1_Play			\Default Work Unit\SFX\LauncherCombo1_Play	
 	3789624926	LauncherCombo2_Play			\Default Work Unit\SFX\LauncherCombo2_Play	
@@ -7,13 +9,30 @@ Event	ID	Name			Wwise Object Path	Notes
 	4261859469	LauncherCombo3_Play			\Default Work Unit\SFX\LauncherCombo3_Play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	79296097	SD_SFX_TimpaniBoing_2	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\F5\{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_2		264760
-	188634448	SD_SFX_TimpaniBoing_1	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\00\{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_1		264760
-	366649388	SD_SFX_OrganHit_4	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\ED\{EDD1CDBF-CF32-68F2-C5E0-9213CDE632EA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_4		176496
-	406175795	SD_SFX_OrganHit_2	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\62\{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_2		352896
-	524488237	SD_SFX_OrganHit_1	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\B0\{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_1		352896
-	736450114	SD_SFX_OrganHit	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\88\{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit		352896
-	918727732	SD_SFX_OrganHit_3	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\D3\{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_3		352896
-	979600500	SD_SFX_TimpaniBoing	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\FF\{FF18D2CC-5674-8615-2AF2-617329D9B8CE}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing		242708
-	1032613653	SD_SFX_TimpaniBoing_3	C:\Users\Admin\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\CE\{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_3		264760
+	23818761	SD_SFX_GruntSad_8	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\41\{41E12F59-E959-BF91-7E67-ABAC80D3E00D}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_8		68652
+	70841902	SD_SFX_GruntSad	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\ED\{EDE88185-C66A-5B67-0184-431356295BF2}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad		99616
+	79296097	SD_SFX_TimpaniBoing_2	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\F5\{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_2		264760
+	128345456	SD_SFX_GruntSad_1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\29\{29C9FEFA-8B19-9DCF-38AD-3CB9E10757A3}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_1		70538
+	168758328	SD_SFX_GruntHappy_5	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\0F\{0FB6A121-27F7-7CBB-2587-6E2446C2EE67}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Happy\SD_SFX_GruntHappy_5		198610
+	188634448	SD_SFX_TimpaniBoing_1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\00\{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_1		264760
+	339727052	SD_SFX_GruntSad_6	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\FA\{FAEFD124-27AC-CD1D-1660-08CEE3A25E3B}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_6		55284
+	346933841	SD_SFX_GruntHappy_6	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\36\{367104FB-178C-6713-97C4-B13365A6B188}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Happy\SD_SFX_GruntHappy_6		110410
+	366649388	SD_SFX_OrganHit_4	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\ED\{EDD1CDBF-CF32-68F2-C5E0-9213CDE632EA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_4		176496
+	406175795	SD_SFX_OrganHit_2	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\62\{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_2		352896
+	516670842	SD_SFX_GruntHappy_2	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\75\{751253AE-EF24-D874-2946-422356AD3C71}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Happy\SD_SFX_GruntHappy_2		88360
+	524488237	SD_SFX_OrganHit_1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\B0\{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_1		352896
+	628240651	SD_SFX_GruntSad_10	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\B0\{B0670BD5-3AC7-C016-125B-933C6E12DC2A}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_10		68148
+	667294815	SD_SFX_GruntSad_9	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\21\{21EF0FFB-6CC2-632D-2B6B-1272087EF24D}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_9		86522
+	687052481	SD_SFX_GruntSad_3	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\2F\{2F4B5B34-2C31-28E9-5E11-F70C42FD2942}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_3		69984
+	736450114	SD_SFX_OrganHit	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\88\{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit		352896
+	738572190	SD_SFX_GruntSad_2	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\82\{82016BF9-9DFF-8769-242B-77F1974291ED}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_2		69986
+	769660942	SD_SFX_GruntSad_7	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\B7\{B72618BA-6836-D3D4-8A14-01687A4C91E0}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_7		58454
+	782252568	SD_SFX_GruntHappy	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\1B\{1B48E16E-42E5-134C-89CD-A87545612B50}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Happy\SD_SFX_GruntHappy		99384
+	833732526	SD_SFX_GruntSad_4	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\08\{08CDE989-12CD-FADB-DE8C-4D74A523689C}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_4		47936
+	918727732	SD_SFX_OrganHit_3	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\D3\{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_OrganHit_3		352896
+	936680420	SD_SFX_GruntSad_11	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\A6\{A6BA53BD-10FF-B263-363C-577EF1A1816C}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_11		67454
+	951575320	SD_SFX_GruntSad_5	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\C7\{C7391590-0A3B-69FD-B885-9C457D937F06}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Sad\SD_SFX_GruntSad_5		77334
+	979600500	SD_SFX_TimpaniBoing	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\FF\{FF18D2CC-5674-8615-2AF2-617329D9B8CE}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing		242708
+	1032613653	SD_SFX_TimpaniBoing_3	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\CE\{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem		\Actor-Mixer Hierarchy\SFX\SD_SFX_TimpaniBoing_3		264760
+	1034843698	SD_SFX_GruntHappy_8	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\C2\{C21A9990-A3E7-294B-28B5-2DE669C70A0E}.wem		\Actor-Mixer Hierarchy\SFX\SD_Grunts_Happy\SD_SFX_GruntHappy_8		94976
 

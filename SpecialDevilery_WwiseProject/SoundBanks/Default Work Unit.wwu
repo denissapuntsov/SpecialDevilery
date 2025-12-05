@@ -16,9 +16,11 @@
 						<ObjectRef Name="Launcher_Play" ID="{C0F9F6F4-3973-40F3-AFF8-AE3058725427}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LauncherComboBasket_Play" ID="{4967EA1B-5C79-417E-95FC-7B391D4F8A0F}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LauncherCombo2_Play" ID="{8C809418-2BB2-44A1-B381-D0FEFC88BBD0}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SD_Grunts_Happy_Play" ID="{E4FC6D88-0420-46FD-B75C-5939BC5B7827}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LauncherCombo3_Play" ID="{77A1B232-952C-4A06-A9E5-C450E9C4B832}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LauncherCombo1_Play" ID="{DA34C2BA-E045-4B11-A928-6110BA789AFD}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="LauncherCombo4_Play" ID="{E9787099-CA05-4BBA-AEA2-CBCA862B990C}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SD_Grunts_Sad_Play" ID="{4D9781C1-D575-4FC0-A5C0-668728C7F291}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
