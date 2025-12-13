@@ -3,7 +3,11 @@
 	<AudioObjects>
 		<WorkUnit Name="SFX" ID="{0781C73A-AF99-415D-A799-E195EAFD77CC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="SD_SFX_OrganHit" ID="{ED0CAD5C-69A2-4872-BDC1-A37EA9EEAC83}" ShortID="952425579">
+				<RandomSequenceContainer Name="Rubber" ID="{D6658C4D-EB01-4488-92AD-41E471D9341B}" ShortID="1062336596">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -13,19 +17,92 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_OrganHit" ID="{0032DAF9-294B-4DD7-96C1-23235133D6EB}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_OrganHit.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="736450114"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Life jacket hit 2" ID="{A583FED0-88BA-46A0-AF47-73145B435D29}" ShortID="270582173">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Life jacket hit 2" ID="{3BABA1A5-2759-4E3E-9C4B-C7D336291F7E}">
+									<Language>SFX</Language>
+									<AudioFile>Life jacket hit 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="749029776"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Life jacket hit 2" ID="{3BABA1A5-2759-4E3E-9C4B-C7D336291F7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Life jacket hit 3" ID="{84AA9E7C-D5EF-43CA-978E-1D95E06A9F35}" ShortID="481665111">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Life jacket hit 3" ID="{21616F32-D669-4E6C-A1FA-1FDE09E5B569}">
+									<Language>SFX</Language>
+									<AudioFile>Life jacket hit 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790737267"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Life jacket hit 3" ID="{21616F32-D669-4E6C-A1FA-1FDE09E5B569}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Life jacket hit" ID="{70AE7E86-8CB5-4EC8-B8C4-416D3A7BE062}" ShortID="955703573">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Life jacket hit" ID="{4ACDE829-573E-4D5E-9DE1-0193701856EB}">
+									<Language>SFX</Language>
+									<AudioFile>Life jacket hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="347854457"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Life jacket hit" ID="{4ACDE829-573E-4D5E-9DE1-0193701856EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_OrganHit" ID="{0032DAF9-294B-4DD7-96C1-23235133D6EB}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_OrganHit_1" ID="{BD7F8E43-5212-4AF9-A049-B0AAA50D3F70}" ShortID="99891493">
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Sack" ID="{70B1B37A-8EC9-4274-A815-BC855E72780A}" ShortID="498435577">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A25AA4D1-0241-4470-BA50-2C876FDDACA9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -35,22 +112,872 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_OrganHit_1" ID="{DBAA9C68-EB7D-4DB7-AE93-5CDE734DA003}">
+						<Sound Name="FX_Post office sack-001" ID="{24A0FD0A-307B-41B6-A553-FABEC6D476FF}" ShortID="666180792">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post office sack-001" ID="{B870B434-27C4-4133-AC47-FF5428698783}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post office sack-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="52964469"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post office sack-001" ID="{B870B434-27C4-4133-AC47-FF5428698783}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post office sack-002" ID="{36CFB36F-03EA-4576-8880-7162CE412CF9}" ShortID="306852652">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post office sack-002" ID="{314392C5-7E7C-496B-8914-A59498E5F641}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post office sack-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1060940533"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post office sack-002" ID="{314392C5-7E7C-496B-8914-A59498E5F641}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post office sack-003" ID="{2F14E2C2-B074-42A7-9050-EC673A1EB9F8}" ShortID="327547412">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post office sack-003" ID="{EF438CAF-DA8D-4561-AEBC-47C3180D2571}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post office sack-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="94315191"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post office sack-003" ID="{EF438CAF-DA8D-4561-AEBC-47C3180D2571}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post office sack-004" ID="{EEC9E643-FD40-42E9-9172-6F26B707B0E1}" ShortID="598855783">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post office sack-004" ID="{D4E99FF4-C38E-492B-81E9-825A78593606}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post office sack-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="578161461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post office sack-004" ID="{D4E99FF4-C38E-492B-81E9-825A78593606}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post office sack-005" ID="{CFDA5726-C580-4746-B183-C95D247BCC5B}" ShortID="622495345">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post office sack-005" ID="{9B3D791D-A28E-4252-AD91-7DBD3DBB0BEC}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post office sack-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="967169161"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post office sack-005" ID="{9B3D791D-A28E-4252-AD91-7DBD3DBB0BEC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="BubbleWrap" ID="{C2B240F9-2925-45C5-8781-2C7286C5978A}" ShortID="468817541">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FX_Bubble Wrap-001" ID="{667719BD-B993-427B-A0EC-F545E10120BA}" ShortID="402913888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Bubble Wrap-001" ID="{1553638E-93AB-4E0F-A292-5B5C7D30D94B}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Bubble Wrap-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889687336"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Bubble Wrap-001" ID="{1553638E-93AB-4E0F-A292-5B5C7D30D94B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Bubble Wrap-002" ID="{86192DEE-52C4-448B-A824-BA238D85956C}" ShortID="626786427">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Bubble Wrap-002" ID="{85E163E4-C2F5-4D93-A732-C667E2B8F65B}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Bubble Wrap-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="785557710"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Bubble Wrap-002" ID="{85E163E4-C2F5-4D93-A732-C667E2B8F65B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Bubble Wrap-003" ID="{1C5211AA-056F-4CD6-93C9-DB8F396C2833}" ShortID="343115800">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Bubble Wrap-003" ID="{52F3B637-0A7F-403A-B1B5-08F5B6FEC186}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Bubble Wrap-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="782767405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Bubble Wrap-003" ID="{52F3B637-0A7F-403A-B1B5-08F5B6FEC186}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Bubble Wrap-004" ID="{7AE767F5-5437-4734-869E-0BAF5AF0A3B6}" ShortID="1072693912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Bubble Wrap-004" ID="{02FE968A-653D-448D-9184-8B9C1222A9CF}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Bubble Wrap-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33752272"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Bubble Wrap-004" ID="{02FE968A-653D-448D-9184-8B9C1222A9CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Bubble Wrap-005" ID="{4F9FC680-0246-479A-873B-666616236233}" ShortID="509657175">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Bubble Wrap-005" ID="{622489F4-95B9-45C0-86CE-90CAAE6B20FD}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Bubble Wrap-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="41639043"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Bubble Wrap-005" ID="{622489F4-95B9-45C0-86CE-90CAAE6B20FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Balloon" ID="{4824AEC5-7D56-459D-950F-D7D1A2AE7EF4}" ShortID="337086311">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>2400</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8A3DA1A1-4C0E-4EC3-8B68-FC1E4DB73F36}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="24"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FX_Inflatable Boat Hit-001" ID="{477B9CB8-E66E-48B6-B9D8-E3C1A6F7FC9A}" ShortID="998321507">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E52BCCE6-1E8E-4CF7-932F-A78C4E7EF265}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-001" ID="{6F681F63-B41C-4FF2-8E3B-A774E8C0C05C}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.462857142857143"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="670916796"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-001" ID="{6F681F63-B41C-4FF2-8E3B-A774E8C0C05C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-002" ID="{F67531EA-9FDD-4D5E-95DC-3D5AF536F537}" ShortID="163717153">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2901A1E7-EF2E-4482-B899-40397E035068}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-002" ID="{C5DD73DA-CA51-405F-B510-E63D305F5442}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.501714285714286"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="951540713"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-002" ID="{C5DD73DA-CA51-405F-B510-E63D305F5442}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-003" ID="{517C38FD-04D1-4812-ADAF-BD2684D61E0F}" ShortID="660835186">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0B63F333-E7DA-426C-8EFF-ED63AFD5C19C}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-003" ID="{670A1525-D958-487F-AA53-7CB81E7E9FE0}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.446857142857143"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="440473455"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-003" ID="{670A1525-D958-487F-AA53-7CB81E7E9FE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-004" ID="{0945C9BC-6ACD-4C44-95DC-D5910F65E0D5}" ShortID="351899410">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D22A64C8-2229-4C78-966B-E4EF56528F4C}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-004" ID="{958F398F-C48E-45DF-9DA7-B61D34B1BC67}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.403428571428571"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1054955827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-004" ID="{958F398F-C48E-45DF-9DA7-B61D34B1BC67}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-005" ID="{0FE74D0F-B5FD-43E7-93C7-307DF9069153}" ShortID="502174991">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{01E4E96A-259B-4BAB-8FA5-7A8F15FB6EA3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-005" ID="{16105E7C-69D6-4527-B243-D7E37AB97B66}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.369142857142857"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1063279748"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-005" ID="{16105E7C-69D6-4527-B243-D7E37AB97B66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Boat" ID="{E97CB8B5-2E6A-4063-977E-AE046EEE911F}" ShortID="991180720">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{12D44309-B93B-4635-B303-A7827F7736DF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FX_Inflatable Boat Hit-001" ID="{1BF79D6F-DB04-46EF-9C7E-152B6F1A6B4A}" ShortID="425287516">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-001" ID="{97823816-D1AC-4B08-A506-A0A43747FC5B}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="527996779"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-001" ID="{97823816-D1AC-4B08-A506-A0A43747FC5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-002" ID="{70AD7932-2FEC-4E2D-B1EA-349544932391}" ShortID="793744063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-002" ID="{DFB51D8F-983C-4A6C-A8D9-0D2B299B23DC}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="693148532"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-002" ID="{DFB51D8F-983C-4A6C-A8D9-0D2B299B23DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-003" ID="{4648467A-DCE0-47D8-846C-E81EC5071E3D}" ShortID="718715067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-003" ID="{C5403E73-3EA1-4A2A-A44C-C29551B4C0E2}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="474101543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-003" ID="{C5403E73-3EA1-4A2A-A44C-C29551B4C0E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-004" ID="{82EFD0F5-5A89-443B-826C-D3D0D9C6A4B7}" ShortID="835222549">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-004" ID="{32DAC174-330D-4B65-8A20-D3CE3949F9AA}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481784087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-004" ID="{32DAC174-330D-4B65-8A20-D3CE3949F9AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Inflatable Boat Hit-005" ID="{04E08542-4F58-4E26-870B-17727A988819}" ShortID="405094298">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Inflatable Boat Hit-005" ID="{52CCDD76-9A3A-44F3-9DF8-8034A0CD26B3}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Inflatable Boat Hit-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="618718549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Inflatable Boat Hit-005" ID="{52CCDD76-9A3A-44F3-9DF8-8034A0CD26B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Locker_Open" ID="{1E7B7169-31CF-405E-AACF-3F8A831BF699}" ShortID="95508677">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FX_Post Office Locker Open-001" ID="{CC8DCEA6-980A-4DE4-9F82-784F506BEE08}" ShortID="905101997">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Open-001" ID="{70920FA7-E8BF-42D7-A061-1089A2688718}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Open-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="633807649"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Open-001" ID="{70920FA7-E8BF-42D7-A061-1089A2688718}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Open-002" ID="{B3EFB42B-1F9F-4A5C-9D73-3D853CC4A978}" ShortID="888475475">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Open-002" ID="{D153852E-8F93-4B39-A872-AFCA16B52F27}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Open-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="82007916"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Open-002" ID="{D153852E-8F93-4B39-A872-AFCA16B52F27}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Open-003" ID="{C13F2321-C2B0-4C4F-8E50-8E1EA0A892C0}" ShortID="1028659547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Open-003" ID="{7AE35C43-2E8B-4B9D-A13C-462E5E115884}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Open-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="94930235"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Open-003" ID="{7AE35C43-2E8B-4B9D-A13C-462E5E115884}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Open-004" ID="{09733EB6-1DD5-4333-AC12-E63FCAD511F9}" ShortID="563560004">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Open-004" ID="{3C1C3EE4-7727-44DF-9BC3-7BC33A3DBF2C}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Open-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048505136"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Open-004" ID="{3C1C3EE4-7727-44DF-9BC3-7BC33A3DBF2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Open-005" ID="{7F1E1525-CA4A-4CF1-A328-2464F6471EC3}" ShortID="1044113908">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Open-005" ID="{993F5FB9-1818-40FE-AA19-7D810133F60F}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Open-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="535307897"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Open-005" ID="{993F5FB9-1818-40FE-AA19-7D810133F60F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Locker_Close" ID="{8165694E-86EB-4BF2-A94E-CE25B3AA786F}" ShortID="172458922">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9E9B36E1-521A-4EA4-BBE4-59F56C6943BE}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FX_Post Office Locker Recharge-001" ID="{30FBFAFE-8353-4115-99C1-DE104FF704C6}" ShortID="6968377">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Recharge-001" ID="{0FC0DCF6-6130-4B49-890B-D2E0DFBCEB6F}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Recharge-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="670982438"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Recharge-001" ID="{0FC0DCF6-6130-4B49-890B-D2E0DFBCEB6F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Recharge-002" ID="{ACF637FF-B540-4541-BBC6-493ED6B1FC05}" ShortID="1044029596">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Recharge-002" ID="{E9D11A8B-DE5C-4688-AE2F-7EAE1C38504E}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Recharge-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="69833921"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Recharge-002" ID="{E9D11A8B-DE5C-4688-AE2F-7EAE1C38504E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Recharge-003" ID="{23BAA6AC-A642-49D4-AFB9-D31CA487F626}" ShortID="277545176">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Recharge-003" ID="{5AFF8C2D-CA30-4491-AD0F-7732895A96AB}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Recharge-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="552547288"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Recharge-003" ID="{5AFF8C2D-CA30-4491-AD0F-7732895A96AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Recharge-004" ID="{A7838734-A782-460C-899B-5CC8AC2CC893}" ShortID="604792923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Recharge-004" ID="{D803672D-29E3-4A89-BE5D-B325BC5DA977}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Recharge-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="184447980"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Recharge-004" ID="{D803672D-29E3-4A89-BE5D-B325BC5DA977}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FX_Post Office Locker Recharge-005" ID="{C61B92B9-D1F7-40F5-9D16-F8701A826233}" ShortID="217499672">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FX_Post Office Locker Recharge-005" ID="{015C3B39-3D2B-4C11-B20A-94B94552D1BA}">
+									<Language>SFX</Language>
+									<AudioFile>FX_Post Office Locker Recharge-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513742937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FX_Post Office Locker Recharge-005" ID="{015C3B39-3D2B-4C11-B20A-94B94552D1BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Pipe_Out" ID="{3DEE58E6-AAD0-4290-B6B1-9301FEFB3AF0}" ShortID="922098228">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Pneumatic pipe sucking in parcel_1" ID="{87795DDB-21AF-4F83-BE09-FDAA1BDD8118}">
 							<PropertyList>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>SD_SFX_OrganHit_1.wav</AudioFile>
+							<AudioFile>Pneumatic pipe sucking in parcel.1.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="524488237"/>
+								<MediaID ID="906528577"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_OrganHit_1" ID="{DBAA9C68-EB7D-4DB7-AE93-5CDE734DA003}" Platform="Linked"/>
+						<ActiveSource Name="Pneumatic pipe sucking in parcel_1" ID="{87795DDB-21AF-4F83-BE09-FDAA1BDD8118}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SD_SFX_OrganHit_2" ID="{DEB4B096-311A-48C4-A799-E56234239994}" ShortID="534430317">
+				<Sound Name="Pipe_In" ID="{29858BFE-BF19-45F7-BC92-DF9E8C8CE4CE}" ShortID="750720396">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -60,164 +987,130 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_OrganHit_2" ID="{B839B166-CA20-4711-A3E1-16AF926CBA23}">
+						<AudioFileSource Name="Pneumatic pipe sucking in parcel" ID="{6F8327A2-1587-4C5E-9A5A-A6BA5DF4B6D8}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0208573804582867"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.421319085257394"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.400461704799107"/>
+							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>SD_SFX_OrganHit_2.wav</AudioFile>
+							<AudioFile>Pneumatic pipe sucking in parcel.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="406175795"/>
+								<MediaID ID="577370783"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_OrganHit_2" ID="{B839B166-CA20-4711-A3E1-16AF926CBA23}" Platform="Linked"/>
+						<ActiveSource Name="Pneumatic pipe sucking in parcel" ID="{6F8327A2-1587-4C5E-9A5A-A6BA5DF4B6D8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SD_SFX_OrganHit_3" ID="{78339A5E-1DEA-40B4-A7C6-082041D8DD4F}" ShortID="630545458">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_OrganHit_3" ID="{FA4D07AF-466B-4173-93C0-15F9FD97AD4D}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_OrganHit_3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="918727732"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_OrganHit_3" ID="{FA4D07AF-466B-4173-93C0-15F9FD97AD4D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_OrganHit_4" ID="{E17F6EF3-D769-4AA4-BC5B-4E5D68335586}" ShortID="861225096">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_OrganHit_4" ID="{C295A0F7-E4DD-471E-8AC0-2DE568576296}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_OrganHit_4.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="366649388"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_OrganHit_4" ID="{C295A0F7-E4DD-471E-8AC0-2DE568576296}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_TimpaniBoing" ID="{80A61336-D3EB-49A6-AE2A-89C420095AED}" ShortID="1073327736">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_TimpaniBoing" ID="{F09AE2A9-5F27-4DFB-9307-BC44EBA876B4}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_TimpaniBoing.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="979600500"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_TimpaniBoing" ID="{F09AE2A9-5F27-4DFB-9307-BC44EBA876B4}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_TimpaniBoing_1" ID="{7D1FEA52-60A8-4297-83E9-79D8A72816F5}" ShortID="768358155">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_TimpaniBoing_1" ID="{779E3EF8-9ADA-4CBE-982F-062DE268D227}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_TimpaniBoing_1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="188634448"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_TimpaniBoing_1" ID="{779E3EF8-9ADA-4CBE-982F-062DE268D227}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_TimpaniBoing_2" ID="{0887B7E7-3E7A-4F9A-96A5-FF69A4713214}" ShortID="631066242">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_TimpaniBoing_2" ID="{BD974C21-1636-4549-8502-00D3763382B0}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_TimpaniBoing_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="79296097"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_TimpaniBoing_2" ID="{BD974C21-1636-4549-8502-00D3763382B0}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SD_SFX_TimpaniBoing_3" ID="{CD69CF22-A11A-4EA1-AFCE-F2B1F7A43E6B}" ShortID="51348199">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SD_SFX_TimpaniBoing_3" ID="{6C258D26-4289-4DC5-BC8C-23CC6CE3BB55}">
-							<Language>SFX</Language>
-							<AudioFile>SD_SFX_TimpaniBoing_3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1032613653"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SD_SFX_TimpaniBoing_3" ID="{6C258D26-4289-4DC5-BC8C-23CC6CE3BB55}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<RandomSequenceContainer Name="SD_Grunts_Charge" ID="{BE54628D-C27E-4B25-9F35-0A2FBAE8C263}" ShortID="1048728736">
+				<RandomSequenceContainer Name="Boxes_Rattle" ID="{AE83D534-781D-4BB0-A83E-5FD19CBAB371}" ShortID="182042878">
 					<PropertyList>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>8</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2.6"/>
 						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8B834839-C224-4BE0-A097-ADCB146677BA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>260</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{09DB77FA-734E-4972-9B03-11C537CE0A4F}" ShortID="761561240">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{6BF6D155-E862-4F84-BC1D-333BF52817F5}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
 						</Reference>
@@ -226,7 +1119,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SD_SFX_GruntCharging" ID="{DBC227E7-6326-4A34-9C36-C0E3A5CF8AFC}" ShortID="989132146">
+						<Sound Name="FX_Boxes Rattle-001" ID="{D902F9F3-19DC-42B3-A12E-CC66D8094A06}" ShortID="429315218">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -236,19 +1129,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}">
+								<AudioFileSource Name="FX_Boxes Rattle-001" ID="{B5556054-CB0C-4CE9-818F-7A0970A78EF3}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging.wav</AudioFile>
+									<AudioFile>FX_Boxes Rattle-001.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="125016988"/>
+										<MediaID ID="582205651"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging" ID="{08CF8A90-95EF-4F55-B703-0AA60540A381}" Platform="Linked"/>
+								<ActiveSource Name="FX_Boxes Rattle-001" ID="{B5556054-CB0C-4CE9-818F-7A0970A78EF3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntCharging_1" ID="{AF7FBD02-252D-47DB-A608-6DA2F2191C52}" ShortID="584943315">
+						<Sound Name="FX_Boxes Rattle-002" ID="{5E6FD2FF-1C89-4003-9EAE-5E2CC89FACBA}" ShortID="730657121">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -258,19 +1151,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}">
+								<AudioFileSource Name="FX_Boxes Rattle-002" ID="{4537CD3B-6C97-4311-BD47-15DD6C8D26C9}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging_1.wav</AudioFile>
+									<AudioFile>FX_Boxes Rattle-002.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="390729399"/>
+										<MediaID ID="737829743"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging_1" ID="{5A16D09E-C8C4-4EE3-A667-448CF76D83A1}" Platform="Linked"/>
+								<ActiveSource Name="FX_Boxes Rattle-002" ID="{4537CD3B-6C97-4311-BD47-15DD6C8D26C9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntCharging_2" ID="{4F37CBB8-2791-4171-8635-53DC45749171}" ShortID="588674381">
+						<Sound Name="FX_Boxes Rattle-003" ID="{D16D0C2B-AC2C-4B83-8EFD-20D8031BB0DE}" ShortID="210083717">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -280,19 +1173,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}">
+								<AudioFileSource Name="FX_Boxes Rattle-003" ID="{343105CC-5AD9-4726-ABCE-C1DC57BDC7B8}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging_2.wav</AudioFile>
+									<AudioFile>FX_Boxes Rattle-003.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="806054010"/>
+										<MediaID ID="833655847"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging_2" ID="{42F74902-2C4C-4A4B-82E6-FC6CE87432CE}" Platform="Linked"/>
+								<ActiveSource Name="FX_Boxes Rattle-003" ID="{343105CC-5AD9-4726-ABCE-C1DC57BDC7B8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntCharging_3" ID="{86B47E2D-F05E-4DE8-B0D7-5B81625D549D}" ShortID="735300823">
+						<Sound Name="FX_Boxes Rattle-004" ID="{18FCABA0-FD4B-474D-94A1-8117FD9E5AA1}" ShortID="679725066">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -302,19 +1195,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}">
+								<AudioFileSource Name="FX_Boxes Rattle-004" ID="{F2154902-E2D6-4CD6-B5F3-81A19794EF89}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging_3.wav</AudioFile>
+									<AudioFile>FX_Boxes Rattle-004.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="81091407"/>
+										<MediaID ID="174479107"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging_3" ID="{345D48F7-BBD2-41EA-A7F7-27213A127B7C}" Platform="Linked"/>
+								<ActiveSource Name="FX_Boxes Rattle-004" ID="{F2154902-E2D6-4CD6-B5F3-81A19794EF89}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntCharging_4" ID="{82F1D468-FD16-4101-8465-246A07907E99}" ShortID="368649354">
+						<Sound Name="FX_Boxes Rattle-005" ID="{59BFBF7D-E934-4C48-BD21-390BDFFC3304}" ShortID="220882953">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -324,58 +1217,33 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}">
+								<AudioFileSource Name="FX_Boxes Rattle-005" ID="{788424AF-0270-4004-8D3F-061402B5DB8C}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging_4.wav</AudioFile>
+									<AudioFile>FX_Boxes Rattle-005.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="669512717"/>
+										<MediaID ID="941227020"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging_4" ID="{04C94430-4778-4C40-84C3-3FA0DDF3E87E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntCharging_5" ID="{7A15131C-0F94-46B6-BCA3-E07DB1614618}" ShortID="145959763">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntCharging_5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="845641787"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntCharging_5" ID="{3D8F8591-E124-4CC5-8688-73C334F7D779}" Platform="Linked"/>
+								<ActiveSource Name="FX_Boxes Rattle-005" ID="{788424AF-0270-4004-8D3F-061402B5DB8C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="SD_Grunts_Happy" ID="{FA309AC7-647E-4378-94A9-FA9528BBEFA3}" ShortID="942303613">
+				<Sound Name="Grab" ID="{3717E47F-D89F-4447-8D36-2F2EBC9F08D5}" ShortID="375577686">
 					<PropertyList>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>22</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>10</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>640</Value>
-							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{85665ECD-A713-4214-BFDA-5098E0F09CA7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -387,128 +1255,99 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SD_SFX_GruntHappy" ID="{9179DAC3-0A29-4E89-BBCD-9E4FF9B7DC22}" ShortID="660659630">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntHappy.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="782252568"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntHappy" ID="{BD3AA9AF-7179-40AE-911B-07991248562A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntHappy_2" ID="{F7DA8987-A17F-4AD1-85B1-0B24D45C1629}" ShortID="629133593">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntHappy_2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="516670842"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntHappy_2" ID="{591BD301-93B8-4FF5-B296-E33E49373D8C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntHappy_5" ID="{AAF9E909-791F-4853-8253-CFF114615A47}" ShortID="568224732">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntHappy_5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="168758328"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntHappy_5" ID="{C674CAD7-2E52-4997-A42D-999D195A99A9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntHappy_6" ID="{249186F1-EBD8-4C44-B52B-5879FDE4B5E9}" ShortID="498484737">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntHappy_6.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="346933841"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntHappy_6" ID="{331155ED-F594-447D-BFC6-16C599EFBE27}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntHappy_8" ID="{D9E0BA5D-A193-4A0C-81FA-8D32B6D4DC12}" ShortID="785718358">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntHappy_8.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1034843698"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntHappy_8" ID="{E9D90DC4-03E8-4C33-8DF6-7B1F494BC734}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="FX_Boxes hitting floor-003" ID="{D47931C0-4330-4A63-86AC-C01C78041C4C}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.297142857142857"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.448"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.429714285714286"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.980571428571429"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>FX_Boxes hitting floor-003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="420510521"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="SD_Grunts_Sad" ID="{BFCFD8F4-5579-4C87-8947-F873EBA2A5BA}" ShortID="45112290">
+					<ActiveSourceList>
+						<ActiveSource Name="FX_Boxes hitting floor-003" ID="{D47931C0-4330-4A63-86AC-C01C78041C4C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Button" ID="{6E54AA74-1020-4F5A-AD61-0CA82DF9E7D3}" ShortID="54894552">
 					<PropertyList>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>15</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6803FF63-A74F-4EAC-ADA1-352866726B8C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Button" ID="{62BCC615-CD8A-453A-81BD-131033CEC2BE}">
+							<Language>SFX</Language>
+							<AudioFile>Button.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="731425397"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Button" ID="{62BCC615-CD8A-453A-81BD-131033CEC2BE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_Post Office Backroom" ID="{3BEA30C6-CB16-4B2F-BAF7-AE5BB0246473}" ShortID="601287367">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DB241505-5D55-4D96-9A7E-0038DC85D14E}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_Post Office Backroom" ID="{9F288D0B-B17F-44BF-AEB4-041F6BD40572}">
+							<Language>SFX</Language>
+							<AudioFile>AMB_Post Office Backroom.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="170970309"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_Post Office Backroom" ID="{9F288D0B-B17F-44BF-AEB4-041F6BD40572}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Paper" ID="{9B85E7AF-88BB-40CF-A53E-DE3CF57177CC}" ShortID="517915482">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{EF881134-6F9C-4B91-836F-E1C89FC4FDE8}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>730</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -521,7 +1360,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SD_SFX_GruntSad" ID="{5532EB72-53CB-4C64-B752-6059BF980265}" ShortID="935656917">
+						<Sound Name="postcard flip 1" ID="{3FEDE369-249B-4A63-8FC1-4D31CB5ED3D7}" ShortID="948404459">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -531,19 +1370,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}">
+								<AudioFileSource Name="postcard flip 1" ID="{DA5BFC3D-1B2E-470C-B1CA-2968056B60D6}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad.wav</AudioFile>
+									<AudioFile>postcard flip 1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="70841902"/>
+										<MediaID ID="708105329"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad" ID="{E4BF9C5E-9648-42CA-BA75-CB0BB169CD3B}" Platform="Linked"/>
+								<ActiveSource Name="postcard flip 1" ID="{DA5BFC3D-1B2E-470C-B1CA-2968056B60D6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntSad_1" ID="{4E8B1064-33E9-43FA-AACA-46D7B310A14E}" ShortID="789320540">
+						<Sound Name="postcard flip 2" ID="{37999A84-0637-4BD7-99A0-A5FD166D9D0B}" ShortID="127445649">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -553,19 +1392,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}">
+								<AudioFileSource Name="postcard flip 2" ID="{C96BE127-6310-4315-A5E3-5A5F68934EC4}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_1.wav</AudioFile>
+									<AudioFile>postcard flip 2.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="128345456"/>
+										<MediaID ID="1007939909"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_1" ID="{56C6A4AB-EAA4-4E7F-8BBC-7801427FC2D2}" Platform="Linked"/>
+								<ActiveSource Name="postcard flip 2" ID="{C96BE127-6310-4315-A5E3-5A5F68934EC4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SD_SFX_GruntSad_2" ID="{1847E04E-7AD6-4FD1-9AB6-F3E8984D1FC8}" ShortID="71864585">
+						<Sound Name="postcard flip 4" ID="{D76B6E34-063D-4360-8FEE-A01817E30733}" ShortID="1059421618">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -575,214 +1414,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}">
+								<AudioFileSource Name="postcard flip 4" ID="{C756FF1E-DB95-4BE4-89B9-E663D4858A01}">
 									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_2.wav</AudioFile>
+									<AudioFile>postcard flip 4.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="738572190"/>
+										<MediaID ID="1065833270"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_2" ID="{2AD5E870-4DA9-4208-95F4-6F6A06DE7B19}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_3" ID="{81958735-9F2C-48E2-B5F7-CB31FEDC3C7F}" ShortID="417952992">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="687052481"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_3" ID="{B6F76F6D-735C-4CDB-A53B-5D7B5E634EFF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_4" ID="{9063C07F-FE9A-45B5-886C-9CA482B0CFE0}" ShortID="395179776">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="833732526"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_4" ID="{00F42749-3637-43C1-A1BC-C929A09962D3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_5" ID="{268AC561-35F1-4182-B89E-D75881E2C139}" ShortID="166535954">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_5.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="951575320"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_5" ID="{47E16EE9-109F-4870-93CC-BDB1A66D8201}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_6" ID="{4FABC682-2C1A-482B-A0EF-C26A8EB3BCA0}" ShortID="993109324">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_6.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="339727052"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_6" ID="{2E40DFF6-F898-44A4-BE74-9048D3B26C36}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_7" ID="{98F59040-7C41-4F90-BA26-A1067D57F4C3}" ShortID="150950660">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_7.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="769660942"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_7" ID="{E1CB4D18-074C-4A88-B6DB-068A715573E0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_8" ID="{CBDB943D-E1F4-4F55-8AC2-E414A9F4C6EE}" ShortID="643668289">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_8.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="23818761"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_8" ID="{EC339ACF-EDF8-4CCF-83C0-94541255FDDD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_9" ID="{698CEEEF-080D-4244-8549-C8DB258833FD}" ShortID="695524249">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_9.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="667294815"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_9" ID="{E349D39C-D5BA-44D3-A3F3-4A1E7732ECBA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_10" ID="{643C4171-7C1C-4CA4-B93C-32235C3AF355}" ShortID="106615774">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_10.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="628240651"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_10" ID="{A57BFEF9-2BA8-4394-8D81-9BC19C528595}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SD_SFX_GruntSad_11" ID="{4F7F5590-352A-4437-BC6B-F17F9404CE39}" ShortID="771003062">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}">
-									<Language>SFX</Language>
-									<AudioFile>SD_SFX_GruntSad_11.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="936680420"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SD_SFX_GruntSad_11" ID="{48DB46AB-F672-4172-AEDF-9A05D676400A}" Platform="Linked"/>
+								<ActiveSource Name="postcard flip 4" ID="{C756FF1E-DB95-4BE4-89B9-E663D4858A01}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

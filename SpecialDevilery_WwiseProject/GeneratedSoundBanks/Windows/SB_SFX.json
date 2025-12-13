@@ -10,393 +10,1070 @@
     "Type": "User",
     "GUID": "{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}",
     "Language": "SFX",
-    "Hash": "{71862E63-6DAA-66B1-785F-0D882369D574}",
+    "Hash": "{CB5EA6A1-CB4E-5D92-9598-637F2D374397}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_SFX",
     "ShortName": "SB_SFX",
     "Path": "SB_SFX.bnk",
     "Media": [
      {
-      "Id": "23818761",
+      "Id": "27466717",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_8.wav",
-      "CachePath": "41/{41E12F59-E959-BF91-7E67-ABAC80D3E00D}.wem"
+      "ShortName": "DX3.wav",
+      "CachePath": "2A/{2A49619B-CA29-DB57-D7E8-99C4BDB24A50}.wem"
      },
      {
-      "Id": "70841902",
+      "Id": "33752272",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad.wav",
-      "CachePath": "ED/{EDE88185-C66A-5B67-0184-431356295BF2}.wem"
+      "ShortName": "FX_Bubble Wrap-004.wav",
+      "CachePath": "71/{7161A2A2-63A4-CDCD-135C-A27D29E76419}.wem"
      },
      {
-      "Id": "79296097",
+      "Id": "41639043",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_TimpaniBoing_2.wav",
-      "CachePath": "F5/{F5DE4051-27D3-813E-5D72-0254F88A44F5}.wem"
+      "ShortName": "FX_Bubble Wrap-005.wav",
+      "CachePath": "B9/{B92D7A2F-9DFA-F280-3069-7F10FC8ABFC8}.wem"
      },
      {
-      "Id": "128345456",
+      "Id": "52964469",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_1.wav",
-      "CachePath": "29/{29C9FEFA-8B19-9DCF-38AD-3CB9E10757A3}.wem"
+      "ShortName": "FX_Post office sack-001.wav",
+      "CachePath": "71/{719B26F0-0FA7-5BB3-9F84-00D5EFB3DAA4}.wem"
      },
      {
-      "Id": "168758328",
+      "Id": "69833921",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntHappy_5.wav",
-      "CachePath": "0F/{0FB6A121-27F7-7CBB-2587-6E2446C2EE67}.wem"
+      "ShortName": "FX_Post Office Locker Recharge-002.wav",
+      "CachePath": "FB/{FB6945C5-178B-4706-D0A6-23BD49A69CF0}.wem"
      },
      {
-      "Id": "188634448",
+      "Id": "82007916",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_TimpaniBoing_1.wav",
-      "CachePath": "00/{0022CBD4-2642-E1DE-DF71-76D53B70FB1E}.wem"
+      "ShortName": "FX_Post Office Locker Open-002.wav",
+      "CachePath": "0A/{0A36A9C0-6024-9D82-1B22-068E9CE3898B}.wem"
      },
      {
-      "Id": "339727052",
+      "Id": "91035749",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_6.wav",
-      "CachePath": "FA/{FAEFD124-27AC-CD1D-1660-08CEE3A25E3B}.wem"
+      "ShortName": "CW - grumble 3.wav",
+      "CachePath": "86/{8624A0D5-FF26-9547-0829-0F333867AAB5}.wem"
      },
      {
-      "Id": "346933841",
+      "Id": "94315191",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntHappy_6.wav",
-      "CachePath": "36/{367104FB-178C-6713-97C4-B13365A6B188}.wem"
+      "ShortName": "FX_Post office sack-003.wav",
+      "CachePath": "17/{17895606-CBB4-5500-CA48-450073362A02}.wem"
      },
      {
-      "Id": "366649388",
+      "Id": "94930235",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_OrganHit_4.wav",
-      "CachePath": "ED/{EDD1CDBF-CF32-68F2-C5E0-9213CDE632EA}.wem"
+      "ShortName": "FX_Post Office Locker Open-003.wav",
+      "CachePath": "22/{2227AD61-C05D-46C7-A230-3452ECA69259}.wem"
      },
      {
-      "Id": "406175795",
+      "Id": "97979746",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_OrganHit_2.wav",
-      "CachePath": "62/{62FF7320-DB2D-8CC7-BAB5-821657D669CA}.wem"
+      "ShortName": "demon sounds16.wav",
+      "CachePath": "FB/{FBACBE9C-ABE5-8CD4-7340-6334BCCA24DD}.wem"
      },
      {
-      "Id": "516670842",
+      "Id": "123947831",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntHappy_2.wav",
-      "CachePath": "75/{751253AE-EF24-D874-2946-422356AD3C71}.wem"
+      "ShortName": "demon sounds13.wav",
+      "CachePath": "F6/{F6DC90EC-2A28-E2BA-8B44-5AC00E774D4A}.wem"
      },
      {
-      "Id": "524488237",
+      "Id": "170970309",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_OrganHit_1.wav",
-      "CachePath": "B0/{B0679E7A-7CCF-10D1-843E-C55BFEFC0DD0}.wem"
+      "ShortName": "AMB_Post Office Backroom.wav",
+      "CachePath": "C6/{C618E806-BD5C-98A1-AB73-6E9ACD6E3A23}.wem"
      },
      {
-      "Id": "628240651",
+      "Id": "174479107",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_10.wav",
-      "CachePath": "B0/{B0670BD5-3AC7-C016-125B-933C6E12DC2A}.wem"
+      "ShortName": "FX_Boxes Rattle-004.wav",
+      "CachePath": "CD/{CD341EC0-A45D-6722-A5C4-CBC7E3ED35D0}.wem"
      },
      {
-      "Id": "667294815",
+      "Id": "184447980",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_9.wav",
-      "CachePath": "21/{21EF0FFB-6CC2-632D-2B6B-1272087EF24D}.wem"
+      "ShortName": "FX_Post Office Locker Recharge-004.wav",
+      "CachePath": "B1/{B11B4448-1963-7341-3AC8-B2B546E29F0B}.wem"
      },
      {
-      "Id": "687052481",
+      "Id": "212015395",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_3.wav",
-      "CachePath": "2F/{2F4B5B34-2C31-28E9-5E11-F70C42FD2942}.wem"
+      "ShortName": "demon sounds9.wav",
+      "CachePath": "F2/{F26592CB-FEDC-736A-4884-4DC6468E4C16}.wem"
      },
      {
-      "Id": "736450114",
+      "Id": "228213035",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_OrganHit.wav",
-      "CachePath": "88/{882FB95E-8CB8-465E-D7F5-665F6501681C}.wem"
+      "ShortName": "demon sounds3.wav",
+      "CachePath": "2A/{2A5A9F8C-B715-FAF4-5155-652F316A0DC0}.wem"
      },
      {
-      "Id": "738572190",
+      "Id": "276088561",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_2.wav",
-      "CachePath": "82/{82016BF9-9DFF-8769-242B-77F1974291ED}.wem"
+      "ShortName": "DX2.wav",
+      "CachePath": "48/{486ADCF6-C7A3-E96B-8CF6-AD40DAE0C46E}.wem"
      },
      {
-      "Id": "769660942",
+      "Id": "311230237",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_7.wav",
-      "CachePath": "B7/{B72618BA-6836-D3D4-8A14-01687A4C91E0}.wem"
+      "ShortName": "demon sounds26.wav",
+      "CachePath": "33/{335E6140-E667-F7B0-DA1E-E10E67BBE6FF}.wem"
      },
      {
-      "Id": "782252568",
+      "Id": "324259245",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntHappy.wav",
-      "CachePath": "1B/{1B48E16E-42E5-134C-89CD-A87545612B50}.wem"
+      "ShortName": "demon sounds8.wav",
+      "CachePath": "B9/{B9B3ED69-F7A7-F5EC-0A14-F51818584782}.wem"
      },
      {
-      "Id": "833732526",
+      "Id": "347854457",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_4.wav",
-      "CachePath": "08/{08CDE989-12CD-FADB-DE8C-4D74A523689C}.wem"
+      "ShortName": "Life jacket hit.wav",
+      "CachePath": "A2/{A2504B9A-F511-97EC-FDD7-47FF93494B0B}.wem"
      },
      {
-      "Id": "918727732",
+      "Id": "401663163",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_OrganHit_3.wav",
-      "CachePath": "D3/{D31BA9BD-7516-B9E3-D87B-BD2D6D93AAA0}.wem"
+      "ShortName": "demon sounds5.wav",
+      "CachePath": "FC/{FC655C6B-EA5C-E12D-2002-29AC4F4C9903}.wem"
      },
      {
-      "Id": "936680420",
+      "Id": "405529657",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_11.wav",
-      "CachePath": "A6/{A6BA53BD-10FF-B263-363C-577EF1A1816C}.wem"
+      "ShortName": "CW - grumble 9.wav",
+      "CachePath": "54/{5485DDCD-843B-3AA7-D1E0-4AAEF1982E02}.wem"
      },
      {
-      "Id": "951575320",
+      "Id": "420510521",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntSad_5.wav",
-      "CachePath": "C7/{C7391590-0A3B-69FD-B885-9C457D937F06}.wem"
+      "ShortName": "FX_Boxes hitting floor-003.wav",
+      "CachePath": "34/{340BFC0C-A378-5255-C54F-60DE78D9C369}.wem"
      },
      {
-      "Id": "979600500",
+      "Id": "421157377",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_TimpaniBoing.wav",
-      "CachePath": "FF/{FF18D2CC-5674-8615-2AF2-617329D9B8CE}.wem"
+      "ShortName": "CW - grumble 6.wav",
+      "CachePath": "3F/{3FC67905-892A-3B1C-E88B-8524126E5EAE}.wem"
      },
      {
-      "Id": "1032613653",
+      "Id": "440473455",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_TimpaniBoing_3.wav",
-      "CachePath": "CE/{CE9EC6CC-31E5-FDEE-67B3-74092E5D4606}.wem"
+      "ShortName": "FX_Inflatable Boat Hit-003.wav",
+      "CachePath": "54/{54B3454D-E68C-BBF3-27A9-D3AD1BAE8DD4}.wem"
      },
      {
-      "Id": "1034843698",
+      "Id": "474101543",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_SFX_GruntHappy_8.wav",
-      "CachePath": "C2/{C21A9990-A3E7-294B-28B5-2DE669C70A0E}.wem"
+      "ShortName": "FX_Inflatable Boat Hit-003.wav",
+      "CachePath": "98/{983CBE81-56CE-7C6A-46F8-3FBB26C04DC3}.wem"
+     },
+     {
+      "Id": "481784087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-004.wav",
+      "CachePath": "83/{830FC44C-F853-8363-ADF4-F952D2A7BE8F}.wem"
+     },
+     {
+      "Id": "509524645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds27.wav",
+      "CachePath": "09/{090DF5BD-CE79-4B4A-EE4F-303593674482}.wem"
+     },
+     {
+      "Id": "513742937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Recharge-005.wav",
+      "CachePath": "56/{562AC360-FB21-22A6-686C-C27648F47FBC}.wem"
+     },
+     {
+      "Id": "527996779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-001.wav",
+      "CachePath": "7A/{7A86ACC6-2204-7414-0A20-157C7E142827}.wem"
+     },
+     {
+      "Id": "535307897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Open-005.wav",
+      "CachePath": "F6/{F61FEAD7-CF97-4B3D-B5E2-9CA695839AE6}.wem"
+     },
+     {
+      "Id": "552547288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Recharge-003.wav",
+      "CachePath": "FF/{FF7BF49A-1C07-2A00-4DB8-A0FB4EE0A68A}.wem"
+     },
+     {
+      "Id": "557481674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds2.wav",
+      "CachePath": "C0/{C094FDB4-A7B2-1452-5674-F1C01E45EE5C}.wem"
+     },
+     {
+      "Id": "565036371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds28.wav",
+      "CachePath": "02/{02820037-A62D-1272-845E-599A7F7776C1}.wem"
+     },
+     {
+      "Id": "577370783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pneumatic pipe sucking in parcel.wav",
+      "CachePath": "82/{82FC6BF4-FBCB-C00C-DA6F-39004184883C}.wem"
+     },
+     {
+      "Id": "578161461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post office sack-004.wav",
+      "CachePath": "A9/{A92F97A2-9210-26D4-03C6-D3105B546C79}.wem"
+     },
+     {
+      "Id": "582205651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Boxes Rattle-001.wav",
+      "CachePath": "4E/{4E485D28-0102-F653-A440-A2477749AD80}.wem"
+     },
+     {
+      "Id": "584488296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DX1.wav",
+      "CachePath": "21/{21CF0E51-86C2-BEFD-E1EB-3024F48A38A9}.wem"
+     },
+     {
+      "Id": "618718549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-005.wav",
+      "CachePath": "C5/{C5B0DAAC-F7B6-F779-74C1-D8A3E3A87662}.wem"
+     },
+     {
+      "Id": "623283791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CW - grumble 11.wav",
+      "CachePath": "6A/{6ABC5B47-8CC3-4817-9BBC-2E7AD70E9EC3}.wem"
+     },
+     {
+      "Id": "633807649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Open-001.wav",
+      "CachePath": "9E/{9ECBA067-CF46-64E1-0C9A-5F55BE1D0C6F}.wem"
+     },
+     {
+      "Id": "648306753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CW - grumble 1.wav",
+      "CachePath": "0F/{0F0C69BF-F552-D491-2F96-E0C2C395C6FD}.wem"
+     },
+     {
+      "Id": "670916796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-001.wav",
+      "CachePath": "56/{560CCE0E-83BD-5257-FA6F-FA531F57AA40}.wem"
+     },
+     {
+      "Id": "670982438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Recharge-001.wav",
+      "CachePath": "9C/{9C540EAD-7CAC-E2C1-EF81-46452EB17DD7}.wem"
+     },
+     {
+      "Id": "682870712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds6.wav",
+      "CachePath": "93/{937402E7-A4FB-FEA4-FBB8-B48E34D5F6C6}.wem"
+     },
+     {
+      "Id": "693148532",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-002.wav",
+      "CachePath": "62/{62D7E533-3569-8CDC-0614-5926D3C72F4E}.wem"
+     },
+     {
+      "Id": "702257740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds18.wav",
+      "CachePath": "17/{17DB1345-3FB1-94FC-989E-5794E09DD426}.wem"
+     },
+     {
+      "Id": "708105329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "postcard flip 1.wav",
+      "CachePath": "14/{14DB4E86-C335-6C3D-88AE-F9FEE3C15AE8}.wem"
+     },
+     {
+      "Id": "731425397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Button.wav",
+      "CachePath": "58/{584E9369-99C1-8E64-0F61-7E50ED4F09C4}.wem"
+     },
+     {
+      "Id": "737829743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Boxes Rattle-002.wav",
+      "CachePath": "44/{44C585B7-8B50-9140-80DA-6D749160905D}.wem"
+     },
+     {
+      "Id": "742285686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds1.wav",
+      "CachePath": "E0/{E02D4CDF-660A-5F2D-48E9-470DC5D1C5AC}.wem"
+     },
+     {
+      "Id": "748099262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds17.wav",
+      "CachePath": "14/{14E25BB8-1D12-8CA0-1699-152DAC9CF2A8}.wem"
+     },
+     {
+      "Id": "749029776",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Life jacket hit 2.wav",
+      "CachePath": "6D/{6DF3AD10-2E7E-F0B2-723D-CEDB87730211}.wem"
+     },
+     {
+      "Id": "776357219",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds15.wav",
+      "CachePath": "A1/{A11BA373-0257-9455-7911-8E6922DE9E54}.wem"
+     },
+     {
+      "Id": "782767405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Bubble Wrap-003.wav",
+      "CachePath": "DA/{DA59186F-3C2B-1C2D-1F6E-1E2F5C90C643}.wem"
+     },
+     {
+      "Id": "785557710",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Bubble Wrap-002.wav",
+      "CachePath": "2C/{2CC36437-4E00-885F-CD87-94F99526BFD7}.wem"
+     },
+     {
+      "Id": "790389844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds4.wav",
+      "CachePath": "EC/{EC71D3BA-487E-8231-9275-0925D53A786D}.wem"
+     },
+     {
+      "Id": "790737267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Life jacket hit 3.wav",
+      "CachePath": "EB/{EBDC8DED-DDFB-C654-B4D3-E1C2F458059F}.wem"
+     },
+     {
+      "Id": "828822695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds7.wav",
+      "CachePath": "77/{77A37390-2831-2DDE-15FC-B69FFC9EEA66}.wem"
+     },
+     {
+      "Id": "833655847",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Boxes Rattle-003.wav",
+      "CachePath": "BF/{BF7FCED9-AE4C-8FFA-236A-38599B285289}.wem"
+     },
+     {
+      "Id": "889687336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Bubble Wrap-001.wav",
+      "CachePath": "25/{25B70E55-8D0A-917E-46AE-C0DA7854D2FE}.wem"
+     },
+     {
+      "Id": "906528577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pneumatic pipe sucking in parcel.1.wav",
+      "CachePath": "DE/{DE788757-1C92-9817-87BF-95F67147B1A2}.wem"
+     },
+     {
+      "Id": "941227020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Boxes Rattle-005.wav",
+      "CachePath": "9E/{9E3D8290-64E0-117C-BCB0-4B1008F29ABF}.wem"
+     },
+     {
+      "Id": "951540713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-002.wav",
+      "CachePath": "91/{91789B09-54C0-B6DA-0C0B-6CF781600226}.wem"
+     },
+     {
+      "Id": "967169161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post office sack-005.wav",
+      "CachePath": "0E/{0E8B3942-AFAB-9B84-3623-42BC87880FCC}.wem"
+     },
+     {
+      "Id": "1007939909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "postcard flip 2.wav",
+      "CachePath": "5E/{5E439889-AA75-C99A-C391-696FB0773165}.wem"
+     },
+     {
+      "Id": "1048505136",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post Office Locker Open-004.wav",
+      "CachePath": "1B/{1B0804EE-E0F5-F3F7-7738-DFF195945067}.wem"
+     },
+     {
+      "Id": "1054955827",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-004.wav",
+      "CachePath": "A6/{A6E32185-CB04-EF1C-1825-85D4B4778B6A}.wem"
+     },
+     {
+      "Id": "1058604074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "demon sounds29.wav",
+      "CachePath": "B0/{B08740DD-D26F-91AC-0900-8125AB29AF51}.wem"
+     },
+     {
+      "Id": "1060940533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Post office sack-002.wav",
+      "CachePath": "1A/{1AF70473-525D-43A4-5147-F6F66702DF01}.wem"
+     },
+     {
+      "Id": "1063279748",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FX_Inflatable Boat Hit-005.wav",
+      "CachePath": "A5/{A5533B14-056C-014D-CE14-C473F616B428}.wem"
+     },
+     {
+      "Id": "1065833270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "postcard flip 4.wav",
+      "CachePath": "01/{0114E035-A09F-2332-F548-B90F617C1441}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "386366398",
-      "Name": "Launcher_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Launcher_Play",
-      "GUID": "{C0F9F6F4-3973-40F3-AFF8-AE3058725427}",
+      "Id": "2149901341",
+      "Name": "Play_AMB_Post_Office_Backroom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_AMB_Post_Office_Backroom",
+      "GUID": "{280FAC8C-F833-4E59-9EC5-41CDBEFC7150}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5",
-      "DurationMax": "1.5",
+      "DurationMin": "60",
+      "DurationMax": "60",
       "MediaRefs": [
        {
-        "Id": "79296097"
+        "Id": "170970309"
        }
       ]
      },
      {
-      "Id": "3008545775",
-      "Name": "LauncherCombo1_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo1_Play",
-      "GUID": "{DA34C2BA-E045-4B11-A928-6110BA789AFD}",
+      "Id": "3468518107",
+      "Name": "Play_Balloon",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Balloon",
+      "GUID": "{97621B29-E2E7-45A9-B86B-427A953AD980}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
+      "DurationMin": "0.092285715",
+      "DurationMax": "0.12542857",
+      "MediaRefs": [
+       {
+        "Id": "440473455"
+       },
+       {
+        "Id": "670916796"
+       },
+       {
+        "Id": "951540713"
+       },
+       {
+        "Id": "1054955827"
+       },
+       {
+        "Id": "1063279748"
+       }
+      ]
+     },
+     {
+      "Id": "4150095263",
+      "Name": "Play_Basket_Happy",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Basket_Happy",
+      "GUID": "{78739762-6083-44CC-A925-765E9B167913}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3054374",
+      "DurationMax": "2.294896",
+      "MediaRefs": [
+       {
+        "Id": "228213035"
+       },
+       {
+        "Id": "401663163"
+       },
+       {
+        "Id": "557481674"
+       },
+       {
+        "Id": "742285686"
+       },
+       {
+        "Id": "790389844"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "2671776842",
+        "Name": "Play_Boxes_Rattle",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Boxes_Rattle",
+        "GUID": "{291A6C3F-09B3-4734-AC98-10E55CEB1362}"
+       }
+      ]
+     },
+     {
+      "Id": "2916866105",
+      "Name": "Play_Basket_Sad",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Basket_Sad",
+      "GUID": "{C0838EBF-0ECA-4D5C-9354-841AF832A86F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1295209",
+      "DurationMax": "1.4813334",
+      "MediaRefs": [
+       {
+        "Id": "212015395"
+       },
+       {
+        "Id": "324259245"
+       },
+       {
+        "Id": "682870712"
+       },
+       {
+        "Id": "828822695"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "2671776842",
+        "Name": "Play_Boxes_Rattle",
+        "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Boxes_Rattle",
+        "GUID": "{291A6C3F-09B3-4734-AC98-10E55CEB1362}"
+       }
+      ]
+     },
+     {
+      "Id": "1391074924",
+      "Name": "Play_Boat",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Boat",
+      "GUID": "{DB9C1877-3FA3-4B6B-A3FB-48217B5B48FA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8908987",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "474101543"
+       },
+       {
+        "Id": "481784087"
+       },
+       {
+        "Id": "527996779"
+       },
+       {
+        "Id": "618718549"
+       },
+       {
+        "Id": "693148532"
+       }
+      ]
+     },
+     {
+      "Id": "2671776842",
+      "Name": "Play_Boxes_Rattle",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Boxes_Rattle",
+      "GUID": "{291A6C3F-09B3-4734-AC98-10E55CEB1362}",
+      "MaxAttenuation": "260",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6817929",
       "DurationMax": "2",
       "MediaRefs": [
        {
-        "Id": "736450114"
+        "Id": "174479107"
        },
        {
-        "Id": "979600500"
+        "Id": "582205651"
+       },
+       {
+        "Id": "737829743"
+       },
+       {
+        "Id": "833655847"
+       },
+       {
+        "Id": "941227020"
        }
       ]
      },
      {
-      "Id": "3789624926",
-      "Name": "LauncherCombo2_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo2_Play",
-      "GUID": "{8C809418-2BB2-44A1-B381-D0FEFC88BBD0}",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
-      "MediaRefs": [
-       {
-        "Id": "188634448"
-       },
-       {
-        "Id": "524488237"
-       }
-      ]
-     },
-     {
-      "Id": "4261859469",
-      "Name": "LauncherCombo3_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo3_Play",
-      "GUID": "{77A1B232-952C-4A06-A9E5-C450E9C4B832}",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
-      "MediaRefs": [
-       {
-        "Id": "79296097"
-       },
-       {
-        "Id": "406175795"
-       }
-      ]
-     },
-     {
-      "Id": "1939636156",
-      "Name": "LauncherCombo4_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherCombo4_Play",
-      "GUID": "{E9787099-CA05-4BBA-AEA2-CBCA862B990C}",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
-      "MediaRefs": [
-       {
-        "Id": "918727732"
-       },
-       {
-        "Id": "1032613653"
-       }
-      ]
-     },
-     {
-      "Id": "4046617780",
-      "Name": "LauncherComboBasket_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\LauncherComboBasket_Play",
-      "GUID": "{4967EA1B-5C79-417E-95FC-7B391D4F8A0F}",
+      "Id": "2644831324",
+      "Name": "Play_BubbleWrap",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_BubbleWrap",
+      "GUID": "{EC589D28-4076-4872-BEDF-6030E86387E1}",
       "DurationType": "OneShot",
       "DurationMin": "1",
       "DurationMax": "1",
       "MediaRefs": [
        {
-        "Id": "366649388"
+        "Id": "33752272"
+       },
+       {
+        "Id": "41639043"
+       },
+       {
+        "Id": "782767405"
+       },
+       {
+        "Id": "785557710"
+       },
+       {
+        "Id": "889687336"
        }
       ]
      },
      {
-      "Id": "1781246706",
-      "Name": "SD_Grunts_Happy_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SD_Grunts_Happy_Play",
-      "GUID": "{E4FC6D88-0420-46FD-B75C-5939BC5B7827}",
+      "Id": "2099555730",
+      "Name": "Play_Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Button",
+      "GUID": "{187F5567-351C-47B1-880B-C6DB55FA88D5}",
       "DurationType": "OneShot",
-      "DurationMin": "0.6909564",
-      "DurationMax": "1.554652",
+      "DurationMin": "0.35133332",
+      "DurationMax": "0.35133332",
       "MediaRefs": [
        {
-        "Id": "168758328"
-       },
-       {
-        "Id": "346933841"
-       },
-       {
-        "Id": "516670842"
-       },
-       {
-        "Id": "782252568"
-       },
-       {
-        "Id": "1034843698"
+        "Id": "731425397"
        }
       ]
      },
      {
-      "Id": "985693488",
-      "Name": "SD_Grunts_Sad_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\SD_Grunts_Sad_Play",
-      "GUID": "{4D9781C1-D575-4FC0-A5C0-668728C7F291}",
+      "Id": "731783009",
+      "Name": "Play_Demon_Aim",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Demon_Aim",
+      "GUID": "{3513019B-68C0-4C15-9336-4CA7C9E7AFC0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.3553159",
-      "DurationMax": "0.7396663",
+      "DurationMin": "0.4897344",
+      "DurationMax": "0.6486458",
       "MediaRefs": [
        {
-        "Id": "23818761"
+        "Id": "311230237"
        },
        {
-        "Id": "70841902"
+        "Id": "509524645"
        },
        {
-        "Id": "128345456"
+        "Id": "565036371"
        },
        {
-        "Id": "339727052"
-       },
-       {
-        "Id": "628240651"
-       },
-       {
-        "Id": "667294815"
-       },
-       {
-        "Id": "687052481"
-       },
-       {
-        "Id": "738572190"
-       },
-       {
-        "Id": "769660942"
-       },
-       {
-        "Id": "833732526"
-       },
-       {
-        "Id": "936680420"
-       },
-       {
-        "Id": "951575320"
+        "Id": "1058604074"
        }
       ]
+     },
+     {
+      "Id": "2238432732",
+      "Name": "Play_Demon_Grab",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Demon_Grab",
+      "GUID": "{EC6FAF5A-2E92-4D08-B320-D4F1D52938CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3778963",
+      "DurationMax": "1.7125208",
+      "MediaRefs": [
+       {
+        "Id": "91035749"
+       },
+       {
+        "Id": "97979746"
+       },
+       {
+        "Id": "123947831"
+       },
+       {
+        "Id": "405529657"
+       },
+       {
+        "Id": "420510521"
+       },
+       {
+        "Id": "421157377"
+       },
+       {
+        "Id": "623283791"
+       },
+       {
+        "Id": "648306753"
+       },
+       {
+        "Id": "702257740"
+       },
+       {
+        "Id": "748099262"
+       },
+       {
+        "Id": "776357219"
+       }
+      ]
+     },
+     {
+      "Id": "1965293853",
+      "Name": "Play_Demon_Release",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Demon_Release",
+      "GUID": "{F6A3D210-73F5-4E99-A3D8-0A3F9BCF2950}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4897344",
+      "DurationMax": "0.6486458",
+      "MediaRefs": [
+       {
+        "Id": "311230237"
+       },
+       {
+        "Id": "509524645"
+       },
+       {
+        "Id": "565036371"
+       },
+       {
+        "Id": "1058604074"
+       }
+      ]
+     },
+     {
+      "Id": "2807695960",
+      "Name": "Play_DX2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Play_DX2",
+      "GUID": "{D672DBDD-DC91-40FD-AD95-37C99CAA7155}",
+      "DurationType": "OneShot",
+      "DurationMin": "26.538666",
+      "DurationMax": "26.538666",
+      "MediaRefs": [
+       {
+        "Id": "276088561"
+       }
+      ]
+     },
+     {
+      "Id": "2807695961",
+      "Name": "Play_DX3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Play_DX3",
+      "GUID": "{6D5C19DC-7D9D-4520-A44C-A871C30FD800}",
+      "DurationType": "OneShot",
+      "DurationMin": "31.771791",
+      "DurationMax": "31.771791",
+      "MediaRefs": [
+       {
+        "Id": "27466717"
+       }
+      ]
+     },
+     {
+      "Id": "1865767100",
+      "Name": "Play_DX_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Play_DX_01",
+      "GUID": "{7E2DBA1E-065E-4681-A15F-ED52617CDDF8}",
+      "DurationType": "OneShot",
+      "DurationMin": "24.832",
+      "DurationMax": "24.832",
+      "MediaRefs": [
+       {
+        "Id": "584488296"
+       },
+       {
+        "Id": "682870712"
+       }
+      ]
+     },
+     {
+      "Id": "340553735",
+      "Name": "Play_Locker_Close",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Locker_Close",
+      "GUID": "{BBA8624B-9151-4C17-9CE0-DCB91D90BC6C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.75",
+      "DurationMax": "2.75",
+      "MediaRefs": [
+       {
+        "Id": "69833921"
+       },
+       {
+        "Id": "184447980"
+       },
+       {
+        "Id": "513742937"
+       },
+       {
+        "Id": "552547288"
+       },
+       {
+        "Id": "670982438"
+       }
+      ]
+     },
+     {
+      "Id": "943217713",
+      "Name": "Play_Locker_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Locker_Open",
+      "GUID": "{C3B48F1A-A03E-479D-921F-57BF7DC99858}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "82007916"
+       },
+       {
+        "Id": "94930235"
+       },
+       {
+        "Id": "535307897"
+       },
+       {
+        "Id": "633807649"
+       },
+       {
+        "Id": "1048505136"
+       }
+      ]
+     },
+     {
+      "Id": "441377128",
+      "Name": "Play_Paper",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Paper",
+      "GUID": "{3159533D-CFBF-4EAE-AA04-0C239E267F80}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.725625",
+      "DurationMax": "1.0334584",
+      "MediaRefs": [
+       {
+        "Id": "708105329"
+       },
+       {
+        "Id": "1007939909"
+       },
+       {
+        "Id": "1065833270"
+       }
+      ]
+     },
+     {
+      "Id": "1155943028",
+      "Name": "Play_Pipe_In",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Pipe_In",
+      "GUID": "{5117EF7D-77CD-454E-BE3A-0079FF542DFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.732729",
+      "DurationMax": "4.732729",
+      "MediaRefs": [
+       {
+        "Id": "577370783"
+       },
+       {
+        "Id": "906528577"
+       }
+      ]
+     },
+     {
+      "Id": "2974928328",
+      "Name": "Play_Rubber",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Rubber",
+      "GUID": "{223536F9-73F1-4694-AEBF-1B20214BE565}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4402292",
+      "DurationMax": "2.7567084",
+      "MediaRefs": [
+       {
+        "Id": "347854457"
+       },
+       {
+        "Id": "749029776"
+       },
+       {
+        "Id": "790737267"
+       }
+      ]
+     },
+     {
+      "Id": "337197072",
+      "Name": "Play_Sack",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Sack",
+      "GUID": "{7ACB6756-8A4C-46F5-802A-F81704053A3F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "52964469"
+       },
+       {
+        "Id": "94315191"
+       },
+       {
+        "Id": "578161461"
+       },
+       {
+        "Id": "967169161"
+       },
+       {
+        "Id": "1060940533"
+       }
+      ]
+     },
+     {
+      "Id": "4049736723",
+      "Name": "Stop_AMB_Post_Office_Backroom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Stop_AMB_Post_Office_Backroom",
+      "GUID": "{3D4E099A-94EA-4794-B968-B3467FCF363D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{D6E8F7C2-1EBD-E6F7-78E7-838663FA2C28}"
+  "FileHash": "{24012853-7E9B-1800-5B73-F134BE6200F3}"
  }
 }

@@ -10,40 +10,192 @@
     "Type": "User",
     "GUID": "{4C655EF8-2C7D-4517-9191-95AE0ABB70C6}",
     "Language": "SFX",
-    "Hash": "{50CECF1F-10E5-BC00-976E-7494C09E5989}",
+    "Hash": "{FAC904AB-3CA0-38EB-0F47-FD5BD34A8D21}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
     "ShortName": "SB_Music",
     "Path": "SB_Music.bnk",
     "Media": [
      {
-      "Id": "817596933",
+      "Id": "19128885",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SD_Muzak_v1.wav",
-      "CachePath": "4C/{4CD36F9E-C31B-EE45-E6BD-A4D1FC96078D}.wem"
+      "ShortName": "Ending_1_Good_Both.wav",
+      "CachePath": "7E/{7E1A5264-7D7D-95F7-3E80-2D2BAC35A507}.wem"
+     },
+     {
+      "Id": "20375794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Level_1.wav",
+      "CachePath": "D9/{D9802E37-307B-6254-DB71-4B342D515EC9}.wem"
+     },
+     {
+      "Id": "22763593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ending_4_Bad_Both.wav",
+      "CachePath": "63/{636D9A98-D13D-CD7A-20A3-6584C311C1F6}.wem"
+     },
+     {
+      "Id": "149810891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ending_3_Good_Employee.wav",
+      "CachePath": "01/{01AA6F5A-824D-6BA6-A7F6-D4613EDFFF2F}.wem"
+     },
+     {
+      "Id": "330236033",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Level_3 .wav",
+      "CachePath": "73/{73C7EDB4-71CE-382E-C8F6-D1F318AD4E29}.wem"
+     },
+     {
+      "Id": "512086008",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ending_2_Good_Demon.wav",
+      "CachePath": "59/{59E9489A-6BEE-D95A-6833-AC9E0F7A02CF}.wem"
+     },
+     {
+      "Id": "749334671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main_Menu.wav",
+      "CachePath": "3A/{3A68B176-FAD2-A756-EFF2-523F82AAEB21}.wem"
+     },
+     {
+      "Id": "869013941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Level_2.wav",
+      "CachePath": "70/{7088E427-5CA8-13EC-3E4F-E63829DC5CBF}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "4017574706",
-      "Name": "Play_SD_Muzak_v1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_SD_Muzak_v1",
-      "GUID": "{DD39067C-492C-4583-B3D3-6232B3DC3E13}",
+      "Id": "972246965",
+      "Name": "Play_Ending_1_Good_Both",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Ending_1_Good_Both",
+      "GUID": "{2F5F9FB1-C2BF-4E17-8745-EB87EED4A85E}",
       "DurationType": "OneShot",
-      "DurationMin": "68.96637",
-      "DurationMax": "68.96637",
+      "DurationMin": "10.630612",
+      "DurationMax": "10.630612",
       "MediaRefs": [
        {
-        "Id": "817596933"
+        "Id": "19128885"
        }
       ]
      },
      {
-      "Id": "3761131964",
-      "Name": "Stop_SD_Muzak_v1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_SD_Muzak_v1",
-      "GUID": "{ACB69152-EBFA-48E8-992C-179E58C8B8A3}",
+      "Id": "246207820",
+      "Name": "Play_Ending_2_Good_Demon",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Ending_2_Good_Demon",
+      "GUID": "{174FE60F-70C5-4158-9848-50369E9C7F0B}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.647042",
+      "DurationMax": "5.647042",
+      "MediaRefs": [
+       {
+        "Id": "512086008"
+       }
+      ]
+     },
+     {
+      "Id": "101320166",
+      "Name": "Play_Ending_3_Good_Employee",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Ending_3_Good_Employee",
+      "GUID": "{2B2985C0-085F-488E-93DD-4EAEFF093426}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.142857",
+      "DurationMax": "5.142857",
+      "MediaRefs": [
+       {
+        "Id": "149810891"
+       }
+      ]
+     },
+     {
+      "Id": "1900376032",
+      "Name": "Play_Ending_4_Bad_Both",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Ending_4_Bad_Both",
+      "GUID": "{C4C09268-9FCF-42AB-B29C-EC1564BAD947}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.392857",
+      "DurationMax": "7.392857",
+      "MediaRefs": [
+       {
+        "Id": "22763593"
+       }
+      ]
+     },
+     {
+      "Id": "833230064",
+      "Name": "Play_Level_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Level_1",
+      "GUID": "{7A6F0386-40AA-4C70-9DC3-662783E9ED73}",
+      "DurationType": "OneShot",
+      "DurationMin": "66.008415",
+      "DurationMax": "66.008415",
+      "MediaRefs": [
+       {
+        "Id": "20375794"
+       }
+      ]
+     },
+     {
+      "Id": "833230067",
+      "Name": "Play_Level_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Level_2",
+      "GUID": "{1FD70340-7586-453A-BEA4-02C5B3E2F03B}",
+      "DurationType": "OneShot",
+      "DurationMin": "63.458096",
+      "DurationMax": "63.458096",
+      "MediaRefs": [
+       {
+        "Id": "869013941"
+       }
+      ]
+     },
+     {
+      "Id": "833230066",
+      "Name": "Play_Level_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Level_3",
+      "GUID": "{E15F81D7-3E37-4F7C-ABFC-C8E20603EFD4}",
+      "DurationType": "OneShot",
+      "DurationMin": "66.01941",
+      "DurationMax": "66.01941",
+      "MediaRefs": [
+       {
+        "Id": "330236033"
+       }
+      ]
+     },
+     {
+      "Id": "3306210749",
+      "Name": "Play_Main_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Main_Menu",
+      "GUID": "{A942AAF4-9B42-4F49-A43C-2E87D6A2A40B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "749334671"
+       }
+      ]
+     },
+     {
+      "Id": "774860123",
+      "Name": "Stop_Main_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Stop_Main_Menu",
+      "GUID": "{936CAA4F-FACC-4DC9-979F-1ED1107520FA}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -52,6 +204,6 @@
     ]
    }
   ],
-  "FileHash": "{1B9D0A73-00DB-21E6-8A4F-D45FE016FC87}"
+  "FileHash": "{756A0CB9-1960-B706-1446-BA6AAFAC7AB6}"
  }
 }

@@ -5,22 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="SB_Music" ID="{4C655EF8-2C7D-4517-9191-95AE0ABB70C6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_SD_Muzak_v1" ID="{DD39067C-492C-4583-B3D3-6232B3DC3E13}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_SD_Muzak_v1" ID="{ACB69152-EBFA-48E8-992C-179E58C8B8A3}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{B4FABF9F-CFCE-4F09-A6E5-739C2D1B4ED6}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SB_SFX" ID="{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Launcher_Play" ID="{C0F9F6F4-3973-40F3-AFF8-AE3058725427}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LauncherComboBasket_Play" ID="{4967EA1B-5C79-417E-95FC-7B391D4F8A0F}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LauncherCombo2_Play" ID="{8C809418-2BB2-44A1-B381-D0FEFC88BBD0}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SD_Grunts_Happy_Play" ID="{E4FC6D88-0420-46FD-B75C-5939BC5B7827}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LauncherCombo3_Play" ID="{77A1B232-952C-4A06-A9E5-C450E9C4B832}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LauncherCombo1_Play" ID="{DA34C2BA-E045-4B11-A928-6110BA789AFD}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="LauncherCombo4_Play" ID="{E9787099-CA05-4BBA-AEA2-CBCA862B990C}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SD_Grunts_Sad_Play" ID="{4D9781C1-D575-4FC0-A5C0-668728C7F291}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{DC06B5FF-1EBB-41A8-A1CE-A800977A8597}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue" ID="{6E508ACA-CAA6-4E07-ADF1-932EFCCC0B9F}" WorkUnitID="{EE1B4AA6-A8D6-44F5-BA97-D65A09F1D686}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

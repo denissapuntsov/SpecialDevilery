@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16E4DEE4-771C-4215-A10D-9DF3F99A9BAA}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{16E4DEE4-771C-4215-A10D-9DF3F99A9BAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="DX3" ID="{05735DBC-FE48-4F0F-AC01-9963B5A43D81}" ShortID="415578767">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DX3" ID="{0309CC84-9E4F-4576-AFB7-BFCB1797F250}">
+							<Language>SFX</Language>
+							<AudioFile>DX3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="27466717"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DX3" ID="{0309CC84-9E4F-4576-AFB7-BFCB1797F250}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DX1" ID="{7325755D-3FD7-4E14-A6B4-0A032C161AB5}" ShortID="1023757856">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DX1" ID="{8E0BC22E-CFF2-4CCA-91B1-2335807FD838}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>DX1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="584488296"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DX1" ID="{8E0BC22E-CFF2-4CCA-91B1-2335807FD838}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DX2" ID="{DC3AAAFE-446C-4479-90BC-0EBB6687B097}" ShortID="797094152">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DX2" ID="{FD5046D4-965B-4CF0-894A-73F2BA6C19F0}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>DX2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="276088561"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DX2" ID="{FD5046D4-965B-4CF0-894A-73F2BA6C19F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Demon Happy" ID="{618292FA-B529-4C9B-A514-569FA2239E6D}" ShortID="600983110">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3A330397-EE48-4FF0-83A5-27F2605265D3}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="demon sounds1" ID="{94797ECA-A240-4BA5-880B-67632CEAF07D}" ShortID="851213358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds1" ID="{510E0A16-5993-4A0C-9E52-94F94FC846DB}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="742285686"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds1" ID="{510E0A16-5993-4A0C-9E52-94F94FC846DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds2" ID="{FCBC0A0E-A956-4B69-98D5-FD24DB165082}" ShortID="486775131">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds2" ID="{CFC6198D-BCAC-4093-8FFC-A600523296BA}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557481674"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds2" ID="{CFC6198D-BCAC-4093-8FFC-A600523296BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds3" ID="{3CED903D-D904-4A46-8A03-F6EC9DFCCDCE}" ShortID="757006642">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds3" ID="{54B3A5E1-E2DA-49F8-BC0F-B7963DF66447}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="228213035"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds3" ID="{54B3A5E1-E2DA-49F8-BC0F-B7963DF66447}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds4" ID="{AE0B4722-5EBC-4F80-9FDE-3A04CF0A8BB5}" ShortID="261459759">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds4" ID="{E7B47A5A-B0FA-4DA9-A312-278333FE17CE}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790389844"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds4" ID="{E7B47A5A-B0FA-4DA9-A312-278333FE17CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds5" ID="{2B7296AA-5CC5-4BC7-A104-9668E5712227}" ShortID="1069466709">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds5" ID="{414EC216-7BEB-475E-B859-813440C90F8A}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="401663163"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds5" ID="{414EC216-7BEB-475E-B859-813440C90F8A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Demon Sad" ID="{2A4507CA-8062-47D5-B4AE-8A144AD2A049}" ShortID="390176608">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C62F0537-DCC7-4C66-BCB8-F854C49AF317}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="demon sounds6" ID="{01D90C4A-E443-47E7-93FF-985FCDB4B00C}" ShortID="227743868">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds6" ID="{EA58A971-3A20-44E7-8D18-0AF1EC5727BB}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="682870712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds6" ID="{EA58A971-3A20-44E7-8D18-0AF1EC5727BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds7" ID="{1CCF0E19-0CDE-4847-BD81-B14833F94413}" ShortID="386860133">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds7" ID="{3AFA242B-0425-47DD-8CB5-688B8187DD0A}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828822695"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds7" ID="{3AFA242B-0425-47DD-8CB5-688B8187DD0A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds8" ID="{6EFB4061-C798-49A2-BD0F-390061433C34}" ShortID="458187639">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds8" ID="{865C44D5-FBFC-4AE8-807D-D274D71E5D60}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="324259245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds8" ID="{865C44D5-FBFC-4AE8-807D-D274D71E5D60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds9" ID="{92B7EE07-D409-40DE-B1C4-BC89952066E0}" ShortID="537463329">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds9" ID="{1506910A-F56B-4026-82BF-057E98CF70EF}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="212015395"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds9" ID="{1506910A-F56B-4026-82BF-057E98CF70EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Demon Grab" ID="{27519E96-F4CA-4B59-8868-CBD8CDCDF03E}" ShortID="968732823">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4D5DF5B8-5459-4A82-8D3F-E5E774AB1ACB}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="demon sounds13" ID="{6C365E09-D466-4912-8FF5-56D48E9C5461}" ShortID="458279563">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds13" ID="{2693A4B4-74A1-4349-8943-38431B8E3453}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="123947831"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds13" ID="{2693A4B4-74A1-4349-8943-38431B8E3453}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds15" ID="{76304D1B-C10A-4A0C-B935-4B1105CB9628}" ShortID="200115188">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds15" ID="{9875145E-3910-4354-8D8B-D59BCE21C25F}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds15.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="776357219"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds15" ID="{9875145E-3910-4354-8D8B-D59BCE21C25F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds16" ID="{B9E2D8B1-9255-4A92-A3FC-BEE4273ED206}" ShortID="237874992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds16" ID="{4EA9F029-D813-443B-867A-A41A3B7DE360}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds16.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="97979746"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds16" ID="{4EA9F029-D813-443B-867A-A41A3B7DE360}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds17" ID="{7FCBDE54-40C1-4147-94C5-D1B59F0252CA}" ShortID="680729228">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds17" ID="{BFE43C28-B66E-4DE8-A466-F171B63E68A2}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds17.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="748099262"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds17" ID="{BFE43C28-B66E-4DE8-A466-F171B63E68A2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds18" ID="{6A34E836-B60D-44F1-BC42-B43DD2A8253B}" ShortID="500777919">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds18" ID="{D6B8179F-F3D0-451D-A910-68B3FBE1CD5D}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds18.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="702257740"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds18" ID="{D6B8179F-F3D0-451D-A910-68B3FBE1CD5D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Customer" ID="{B24ACAA0-A86F-474C-8E40-4B0C45858807}" ShortID="974926875">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0BD3A74E-B855-475C-85F5-65B26E1D9091}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CW - grumble 1" ID="{F3253189-AD86-40EF-892A-BC9E30F7304D}" ShortID="576774373">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CW - grumble 1" ID="{4620C64F-77F5-4440-8460-3482BF670383}">
+									<Language>SFX</Language>
+									<AudioFile>CW - grumble 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="648306753"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CW - grumble 1" ID="{4620C64F-77F5-4440-8460-3482BF670383}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CW - grumble 3" ID="{11C5D8C4-28F1-4FA2-9B0F-98DA8B3D446E}" ShortID="777125104">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CW - grumble 3" ID="{1773C273-9760-4AE7-971D-ECD73C34D561}">
+									<Language>SFX</Language>
+									<AudioFile>CW - grumble 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="91035749"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CW - grumble 3" ID="{1773C273-9760-4AE7-971D-ECD73C34D561}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CW - grumble 6" ID="{E5CF25E5-A89C-468F-A100-56AF7C42318F}" ShortID="78283037">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CW - grumble 6" ID="{C1BCA43E-04E0-43EE-92F6-757E46D9B3B8}">
+									<Language>SFX</Language>
+									<AudioFile>CW - grumble 6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="421157377"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CW - grumble 6" ID="{C1BCA43E-04E0-43EE-92F6-757E46D9B3B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CW - grumble 9" ID="{0738FC2D-70CF-4028-9E8B-2CE79730BD63}" ShortID="668403471">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CW - grumble 9" ID="{0F4EA8DA-32D1-4CE7-BF55-9908B8344888}">
+									<Language>SFX</Language>
+									<AudioFile>CW - grumble 9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405529657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CW - grumble 9" ID="{0F4EA8DA-32D1-4CE7-BF55-9908B8344888}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CW - grumble 11" ID="{FF081A91-5035-4874-BBEA-C48E7BFB8D50}" ShortID="54539963">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CW - grumble 11" ID="{33F555A3-A226-496A-BEEF-D8B6F5140C09}">
+									<Language>SFX</Language>
+									<AudioFile>CW - grumble 11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="623283791"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CW - grumble 11" ID="{33F555A3-A226-496A-BEEF-D8B6F5140C09}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Demon Aim" ID="{381EDC48-DC95-4670-93BB-EAA097E89167}" ShortID="551540574">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0F5D597D-58AE-43F3-BBEB-63DD3B64B17D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="demon sounds26" ID="{09EA7512-E51F-477E-9385-0451B107B4D5}" ShortID="263907620">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds26" ID="{0F5CE65F-E978-411C-AB73-746848409E64}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds26.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311230237"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds26" ID="{0F5CE65F-E978-411C-AB73-746848409E64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds27" ID="{147A6BAC-889C-4A83-9D3C-B1CCDD389ADF}" ShortID="2799951">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds27" ID="{8F5A4F8B-422B-4A0F-898F-6FA4F185E02B}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds27.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509524645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds27" ID="{8F5A4F8B-422B-4A0F-898F-6FA4F185E02B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds28" ID="{0FBB50D4-5256-4366-BC9C-E4012017D020}" ShortID="902420188">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds28" ID="{0895E35D-2EB4-4DCD-9445-4979AF389A4C}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds28.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565036371"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds28" ID="{0895E35D-2EB4-4DCD-9445-4979AF389A4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds29" ID="{22A10259-4273-4FF3-BB4C-F4BF39E2BDD6}" ShortID="223506184">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds29" ID="{5916302F-7428-43E1-AFDA-5E744D22A278}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058604074"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds29" ID="{5916302F-7428-43E1-AFDA-5E744D22A278}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Demon Release" ID="{F27E5614-AD9F-46E0-9244-98BA7C841BAF}" ShortID="845556816">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9C24A7A5-5780-4DE7-AEF8-434256CED3C6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="demon sounds26" ID="{D62A514C-9DBF-4AD7-AD95-CF14A2621DA1}" ShortID="901859085">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds26" ID="{4D7C61FB-83E8-4C2E-83DB-8BAEDACAFD62}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds26.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311230237"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds26" ID="{4D7C61FB-83E8-4C2E-83DB-8BAEDACAFD62}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds27" ID="{B0A4D4E9-9396-46FF-9B91-A309EFCDBE26}" ShortID="5560770">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds27" ID="{471D4A6C-CB94-4161-915E-C3E99A33C808}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds27.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509524645"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds27" ID="{471D4A6C-CB94-4161-915E-C3E99A33C808}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds28" ID="{E00345C8-3443-4EFF-A21B-4F68BFF7BC4F}" ShortID="375221553">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds28" ID="{16B868C8-3C82-4377-A9FC-CD1407BD7703}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds28.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="565036371"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds28" ID="{16B868C8-3C82-4377-A9FC-CD1407BD7703}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="demon sounds29" ID="{B583DEC4-6E5B-42BA-A283-80C81AD03975}" ShortID="763384033">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAD1D82A-9821-45C9-BA73-129CCFAE4544}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="demon sounds29" ID="{6319C77F-9943-4E27-943A-FD66FCAD1CE1}">
+									<Language>SFX</Language>
+									<AudioFile>demon sounds29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1058604074"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="demon sounds29" ID="{6319C77F-9943-4E27-943A-FD66FCAD1CE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,7 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3761131964	Stop_SD_Muzak_v1			\Default Work Unit\Stop_SD_Muzak_v1	
-	4017574706	Play_SD_Muzak_v1			\Default Work Unit\Play_SD_Muzak_v1	
+	101320166	Play_Ending_3_Good_Employee			\Default Work Unit\Music\Play_Ending_3_Good_Employee	
+	246207820	Play_Ending_2_Good_Demon			\Default Work Unit\Music\Play_Ending_2_Good_Demon	
+	774860123	Stop_Main_Menu			\Default Work Unit\Music\Stop_Main_Menu	
+	833230064	Play_Level_1			\Default Work Unit\Music\Play_Level_1	
+	833230066	Play_Level_3			\Default Work Unit\Music\Play_Level_3	
+	833230067	Play_Level_2			\Default Work Unit\Music\Play_Level_2	
+	972246965	Play_Ending_1_Good_Both			\Default Work Unit\Music\Play_Ending_1_Good_Both	
+	1900376032	Play_Ending_4_Bad_Both			\Default Work Unit\Music\Play_Ending_4_Bad_Both	
+	3306210749	Play_Main_Menu			\Default Work Unit\Music\Play_Main_Menu	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	817596933	SD_Muzak_v1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\4C\{4CD36F9E-C31B-EE45-E6BD-A4D1FC96078D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD_Muzak_v1		12165764
+	19128885	Ending_1_Good_Both	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\7E\{7E1A5264-7D7D-95F7-3E80-2D2BAC35A507}.wem		\Actor-Mixer Hierarchy\Music\Ending_1_Good_Both		1875336
+	20375794	Level_1	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\D9\{D9802E37-307B-6254-DB71-4B342D515EC9}.wem		\Actor-Mixer Hierarchy\Music\Level_1		11643980
+	22763593	Ending_4_Bad_Both	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\63\{636D9A98-D13D-CD7A-20A3-6584C311C1F6}.wem		\Actor-Mixer Hierarchy\Music\Ending_4_Bad_Both		1304196
+	149810891	Ending_3_Good_Employee	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\01\{01AA6F5A-824D-6BA6-A7F6-D4613EDFFF2F}.wem		\Actor-Mixer Hierarchy\Music\Ending_3_Good_Employee		907296
+	330236033	Level_3 	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\73\{73C7EDB4-71CE-382E-C8F6-D1F318AD4E29}.wem		\Actor-Mixer Hierarchy\Music\Level_3 		11645984
+	512086008	Ending_2_Good_Demon	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\59\{59E9489A-6BEE-D95A-6833-AC9E0F7A02CF}.wem		\Actor-Mixer Hierarchy\Music\Ending_2_Good_Demon		1084392
+	749334671	Main_Menu	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\3A\{3A68B176-FAD2-A756-EFF2-523F82AAEB21}.wem		\Actor-Mixer Hierarchy\Music\Main_Menu		9961504
+	869013941	Level_2	C:\Users\denis.sapuntsov\Documents\Unreal Projects\SpecialDevilery\SpecialDevilery_WwiseProject\.cache\70\{7088E427-5CA8-13EC-3E4F-E63829DC5CBF}.wem		\Actor-Mixer Hierarchy\Music\Level_2		11194104
 
