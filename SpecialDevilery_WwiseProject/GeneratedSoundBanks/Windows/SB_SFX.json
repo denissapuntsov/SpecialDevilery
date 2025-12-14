@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}",
     "Language": "SFX",
-    "Hash": "{CB5EA6A1-CB4E-5D92-9598-637F2D374397}",
+    "Hash": "{43E1B21A-3045-C582-030B-470897D53631}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_SFX",
     "ShortName": "SB_SFX",
     "Path": "SB_SFX.bnk",
@@ -1070,10 +1070,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "288905442",
+      "Name": "Stop_Dialogue",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogue\\Stop_Dialogue",
+      "GUID": "{7A49935B-6F83-47D9-B87C-8B9CDEF7197F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{24012853-7E9B-1800-5B73-F134BE6200F3}"
+  "FileHash": "{9EDC4DE4-6D84-32B8-7E6F-5ECACBD322B6}"
  }
 }

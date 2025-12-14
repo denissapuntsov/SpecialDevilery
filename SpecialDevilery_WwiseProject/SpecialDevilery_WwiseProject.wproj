@@ -13,7 +13,7 @@
 				<Language Name="SFX" ID="{43BF1881-9B0A-4930-BFFD-C75669CD53B4}"/>
 			</LanguageList>
 			<PropertyList>
-				<Property Name="CommPortDiscoveryBroadcast" Type="Uint16" Value="60800"/>
+				<Property Name="CommPortDiscoveryBroadcast" Type="Uint16" Value="8081"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>

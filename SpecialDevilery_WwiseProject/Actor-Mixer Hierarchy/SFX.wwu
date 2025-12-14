@@ -7,6 +7,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -102,6 +107,11 @@
 							</ModifierList>
 						</Property>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -228,6 +238,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -366,7 +381,7 @@
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="24"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -577,6 +592,11 @@
 							</ModifierList>
 						</Property>
 						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -700,6 +720,13 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Locker_Open" ID="{1E7B7169-31CF-405E-AACF-3F8A831BF699}" ShortID="95508677">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8FA4BCE-7834-44A0-A95E-CFCF19F9699A}"/>
@@ -829,6 +856,11 @@
 									<Modifier Name="" ID="{9E9B36E1-521A-4EA4-BBE4-59F56C6943BE}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
