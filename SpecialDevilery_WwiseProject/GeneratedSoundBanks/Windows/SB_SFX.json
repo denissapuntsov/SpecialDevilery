@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8E9AE617-4DE4-4465-AD35-837F39EBF6F6}",
     "Language": "SFX",
-    "Hash": "{DDCFE64D-07D8-65DE-A82C-4BF38AFD002B}",
+    "Hash": "{3D1181B6-C2CB-272C-E333-787290FDF80C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_SFX",
     "ShortName": "SB_SFX",
     "Path": "SB_SFX.bnk",
@@ -859,6 +859,32 @@
       ]
      },
      {
+      "Id": "4050242776",
+      "Name": "Play_Demon_Happy",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Demon_Happy",
+      "GUID": "{9B200015-8AD1-4475-93CF-A67A2465A193}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0554374",
+      "DurationMax": "2.044896",
+      "MediaRefs": [
+       {
+        "Id": "228213035"
+       },
+       {
+        "Id": "401663163"
+       },
+       {
+        "Id": "557481674"
+       },
+       {
+        "Id": "742285686"
+       },
+       {
+        "Id": "790389844"
+       }
+      ]
+     },
+     {
       "Id": "1965293853",
       "Name": "Play_Demon_Release",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_Demon_Release",
@@ -1084,6 +1110,6 @@
     ]
    }
   ],
-  "FileHash": "{28B84A5C-1680-85C2-0333-4370281C921F}"
+  "FileHash": "{41F2CAD5-3419-7BBC-D0BB-F6E53F35FE4E}"
  }
 }

@@ -20,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2974928328	Play_Rubber			\Default Work Unit\SFX\Play_Rubber	
 	3468518107	Play_Balloon			\Default Work Unit\SFX\Play_Balloon	
 	4049736723	Stop_AMB_Post_Office_Backroom			\Default Work Unit\SFX\Stop_AMB_Post_Office_Backroom	
+	4050242776	Play_Demon_Happy			\Default Work Unit\SFX\Play_Demon_Happy	
 	4150095263	Play_Basket_Happy			\Default Work Unit\SFX\Play_Basket_Happy	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

@@ -378,6 +378,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Demon_Happy" ID="{9B200015-8AD1-4475-93CF-A67A2465A193}">
+							<ChildrenList>
+								<Action Name="" ID="{37B430F3-D54B-4F22-B825-6E404EA44399}" ShortID="793819302">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Demon Happy" ID="{618292FA-B529-4C9B-A514-569FA2239E6D}" WorkUnitID="{16E4DEE4-771C-4215-A10D-9DF3F99A9BAA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue" ID="{6E508ACA-CAA6-4E07-ADF1-932EFCCC0B9F}" ShortID="449955778">
